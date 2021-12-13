@@ -1,0 +1,154 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/Content/style/PPublicar/style-publicar.css" rel="stylesheet">
+    <link href="~/Content/style/PPrincipal/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/style/PPrincipal/stylePrincipal.css" rel="stylesheet" />
+    <link href="~/Content/style/PPrincipal/color/default.css" rel="stylesheet" />
+
+    <title>REGISTRAR</title>
+
+</head>
+
+<body>
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="site-logo">
+                            <a href="index.html"><img src="~/Images/logo-home.png" alt="" /></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="~/PublicarPropiedad/Index">Publicar</a></li>
+                                <li><a href="">Historial</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.Navbar-collapse -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+    </div>
+
+    <section class="form-register111">
+        <h1>Registrar</h1>
+        <form action="action_page.php">
+            <div>
+                <input class="controls2 " type="file" name="imagen" />
+            </div>
+
+            <input class="controls" type="text" name="Descripción" id="#" placeholder="Descripción">
+            <input class="controls" type="number" name="Numero de cuartos" id="#" placeholder="Numero de cuartos">
+            <input class="controls" type="number" name="Total de personas" id="#" placeholder="Total personas">
+            <input class="controls" type="number" name="Precio" id="#" placeholder="Precio">
+            <input class="controls" type="number" name="Deposito" id="#" placeholder="Deposito">
+            <input class="controls" type="text" name="Contacto" id="#" placeholder="Contacto">
+
+
+            <div class="row no-order11">
+                <div class="form-group-lg col-xs-5">
+                    <h2>Servicios</h2>
+                    <div class="form-group-lg clearfix">
+                        <!--if this is your looped div, then you can just put the class "checkbox" in here-->
+                        <div th:each="facility : ${facilities}">
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    1
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    2
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    3
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    4
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    5
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    6
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    7
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    8
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="checkbox-inline" th:text="${facility}">
+                                    <input type="checkbox" th:field="*{checkedItems}" th:value="${facility}" />
+                                    9
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ubs">
+                <h3>Ubicacion</h3>
+                <div class="form-group-lg clearfix"></div>
+                <input class="controls3" type="text" name="calle" id1="#" placeholder="calle">
+                <input class="controls3" type="text" name="cruzamientos" id1="#" placeholder="cruzamientos">
+                <input class="controls3" type="text" name="NO.exterior" id1="#" placeholder="NO.exterior">
+                <input class="controls3" type="text" name="localidad" id1="#" placeholder="localidad">
+                <input class="controls3" type="text" name="estado" id1="#" placeholder="estado">
+                <input class="controls3" type="number" name="cp" id1="#" placeholder="cp">
+                <input class="controls3" type="text" name="ubicacion" id1="#" placeholder="ubicacion">
+            </div>
+
+            <input class="botons" type="submit" value="Guardar">
+        </form>
+    </section>
+
+</body>
+
+</html>
