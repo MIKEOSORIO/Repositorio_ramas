@@ -13,7 +13,7 @@ namespace PasosWeb.Controllers
         {
         //    if (Session["IdUser"] != null)
         //    {
-               // return View();
+                return View();
         //    }
         //    else
         //    {
