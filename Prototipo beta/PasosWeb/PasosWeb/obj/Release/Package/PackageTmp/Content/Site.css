@@ -1,0 +1,69 @@
+﻿/*body {
+    padding-top: 50px;
+    background-image: url(../Resources/FondoReviSATv02.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}*/
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.brand_logo{
+    height: 100%;
+    width: 100%;
+}
+.brand_logo_container {
+    /* position: absolute; */
+    margin: 25px 0 35px 0;
+    max-width: 210px;
+    max-height: 100px;
+}
+/*body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f6f8fd;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: initial;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+    /* Set padding to keep content from hitting the edges */
+.body-content {
+    height: 100%;
+    width: 100%;
+    /*transition: all 500ms ease;*/
+    padding-left: 20px;
+    padding-right: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}

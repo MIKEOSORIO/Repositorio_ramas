@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbhomemxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="direccion">
+    <Key>
+      <PropertyRef Name="iddireccion" />
+    </Key>
+    <Property Name="iddireccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="calle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cruzamiento1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cruzamiento2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="noExterior" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="localidad" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="entidadFed" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cp" Type="Int32" Nullable="false" />
+    <Property Name="ubicacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_direccion1" FromRole="direccion" ToRole="propiedad" />
+  </EntityType>
+  <EntityType Name="imagen">
+    <Key>
+      <PropertyRef Name="idimage" />
+    </Key>
+    <Property Name="idimage" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_imagen" FromRole="imagen" ToRole="propiedad" />
+  </EntityType>
+  <EntityType Name="mensaje">
+    <Key>
+      <PropertyRef Name="idmensaje" />
+    </Key>
+    <Property Name="idmensaje" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mensaje1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idpropiedad" Type="Int32" Nullable="false" />
+    <Property Name="idEmisor" Type="Int32" />
+    <Property Name="idReceptor" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_mensaje_usuario" FromRole="mensaje" ToRole="usuario" />
+  </EntityType>
+  <EntityType Name="propiedad">
+    <Key>
+      <PropertyRef Name="idpropiedad" />
+    </Key>
+    <Property Name="idpropiedad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="numCuartos" Type="Int32" Nullable="false" />
+    <Property Name="espacioPersonas" Type="Int32" Nullable="false" />
+    <Property Name="precio" Type="Int32" Nullable="false" />
+    <Property Name="deposito" Type="Int32" Nullable="false" />
+    <Property Name="fechaAlta" Type="DateTime" Precision="0" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contrato" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idimagen" Type="Int32" />
+    <Property Name="iddireccion" Type="Int32" Nullable="false" />
+    <Property Name="idservicios" Type="Int32" Nullable="false" />
+    <Property Name="idusuario" Type="Int32" Nullable="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="direccion" Relationship="Self.FK_propiedad_direccion1" FromRole="propiedad" ToRole="direccion" />
+    <NavigationProperty Name="imagen" Relationship="Self.FK_propiedad_imagen" FromRole="propiedad" ToRole="imagen" />
+    <NavigationProperty Name="servicios" Relationship="Self.FK_propiedad_servicios1" FromRole="propiedad" ToRole="servicios" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_propiedad_usuario" FromRole="propiedad" ToRole="usuario" />
+    <NavigationProperty Name="renta" Relationship="Self.FK_renta_propiedad" FromRole="propiedad" ToRole="renta" />
+  </EntityType>
+  <EntityType Name="renta">
+    <Key>
+      <PropertyRef Name="idrenta" />
+    </Key>
+    <Property Name="idrenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idusuario" Type="Int32" />
+    <Property Name="idpropiedad" Type="Int32" />
+    <Property Name="status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="propiedad" Relationship="Self.FK_renta_propiedad" FromRole="renta" ToRole="propiedad" />
+    <NavigationProperty Name="usuario" Relationship="Self.FK_renta_usuario1" FromRole="renta" ToRole="usuario" />
+  </EntityType>
+  <EntityType Name="servicios">
+    <Key>
+      <PropertyRef Name="idservicios" />
+    </Key>
+    <Property Name="idservicios" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="internet" Type="Boolean" />
+    <Property Name="comida" Type="Boolean" />
+    <Property Name="limpieza" Type="Boolean" />
+    <Property Name="amueblada" Type="Boolean" />
+    <Property Name="parking" Type="Boolean" />
+    <Property Name="alberca" Type="Boolean" />
+    <Property Name="clima" Type="Boolean" />
+    <Property Name="terraza" Type="Boolean" />
+    <Property Name="lavanderia" Type="Boolean" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_servicios1" FromRole="servicios" ToRole="propiedad" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idusuario" />
+    </Key>
+    <Property Name="idusuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contraseña" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="mensaje" Relationship="Self.FK_mensaje_usuario" FromRole="usuario" ToRole="mensaje" />
+    <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_usuario" FromRole="usuario" ToRole="propiedad" />
+    <NavigationProperty Name="renta" Relationship="Self.FK_renta_usuario1" FromRole="usuario" ToRole="renta" />
+  </EntityType>
+  <Association Name="FK_propiedad_direccion1">
+    <End Role="direccion" Type="Self.direccion" Multiplicity="1" />
+    <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="direccion">
+        <PropertyRef Name="iddireccion" />
+      </Principal>
+      <Dependent Role="propiedad">
+        <PropertyRef Name="iddireccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_propiedad_imagen">
+    <End Role="imagen" Type="Self.imagen" Multiplicity="0..1" />
+    <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="imagen">
+        <PropertyRef Name="idimage" />
+      </Principal>
+      <Dependent Role="propiedad">
+        <PropertyRef Name="idimagen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_mensaje_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="mensaje" Type="Self.mensaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idusuario" />
+      </Principal>
+      <Dependent Role="mensaje">
+        <PropertyRef Name="idReceptor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_propiedad_servicios1">
+    <End Role="servicios" Type="Self.servicios" Multiplicity="1" />
+    <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="servicios">
+        <PropertyRef Name="idservicios" />
+      </Principal>
+      <Dependent Role="propiedad">
+        <PropertyRef Name="idservicios" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_propiedad_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idusuario" />
+      </Principal>
+      <Dependent Role="propiedad">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renta_propiedad">
+    <End Role="propiedad" Type="Self.propiedad" Multiplicity="0..1" />
+    <End Role="renta" Type="Self.renta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="propiedad">
+        <PropertyRef Name="idpropiedad" />
+      </Principal>
+      <Dependent Role="renta">
+        <PropertyRef Name="idpropiedad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renta_usuario1">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="renta" Type="Self.renta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="idusuario" />
+      </Principal>
+      <Dependent Role="renta">
+        <PropertyRef Name="idusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbhomemxEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="direccion" EntityType="Self.direccion" />
+    <EntitySet Name="imagen" EntityType="Self.imagen" />
+    <EntitySet Name="mensaje" EntityType="Self.mensaje" />
+    <EntitySet Name="propiedad" EntityType="Self.propiedad" />
+    <EntitySet Name="renta" EntityType="Self.renta" />
+    <EntitySet Name="servicios" EntityType="Self.servicios" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" />
+    <AssociationSet Name="FK_propiedad_direccion1" Association="Self.FK_propiedad_direccion1">
+      <End Role="direccion" EntitySet="direccion" />
+      <End Role="propiedad" EntitySet="propiedad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_propiedad_imagen" Association="Self.FK_propiedad_imagen">
+      <End Role="imagen" EntitySet="imagen" />
+      <End Role="propiedad" EntitySet="propiedad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_mensaje_usuario" Association="Self.FK_mensaje_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="mensaje" EntitySet="mensaje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_propiedad_servicios1" Association="Self.FK_propiedad_servicios1">
+      <End Role="servicios" EntitySet="servicios" />
+      <End Role="propiedad" EntitySet="propiedad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_propiedad_usuario" Association="Self.FK_propiedad_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="propiedad" EntitySet="propiedad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renta_propiedad" Association="Self.FK_renta_propiedad">
+      <End Role="propiedad" EntitySet="propiedad" />
+      <End Role="renta" EntitySet="renta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renta_usuario1" Association="Self.FK_renta_usuario1">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="renta" EntitySet="renta" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

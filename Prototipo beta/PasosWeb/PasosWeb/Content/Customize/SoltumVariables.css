@@ -1,0 +1,75 @@
+﻿:root {
+    /* Main*/
+    --Soltum-Color: #1baaca;
+    --Backgroud-Image: url(../../Images/fondo-login.jpg) !important;
+    --Selected-Color: #1b39ca;
+    --Active-Color: #05283b;
+    --Back-Color: #052f45;
+    --BackGroud-Color: #f6f8fd;
+    --Lines-Color: #d7dce4;
+    --labes-color-Soltum: #414445;
+    --Btn-Font-Size: 10pt;
+    --Menu-Font-Size: 9pt;
+    --Grid-Font-Size: 9pt;
+    /****************/
+    /* StatusColor */
+    --Autorizada-Color: #5bc0de;
+    --Rechazada-Color: #d9534f;
+    --Pagada-Color: #5cb85c;
+    --Pendiente-Color: var(--buttons-secondary-bg-color);
+    --Programada-Color: white;
+    /****************/
+    /* Navbar */
+    --nav-bar-bg-color: white;
+    --nav-bar-letter-color: black;
+    /*********/
+    /* Scroll */
+    --scroll-color: #F5F5F5;
+    --scroll-bg-color: rgb(122, 122, 122);
+    /**********/
+    /* Menu */
+    --menu-bg-color: lightgray;
+    --menu-bg-active-color: var(--Selected-Color); /* Cambio**/
+    --menu-lt-color: white;
+    /**********/
+    /* Footer */
+    --footer-bg-color: black;
+    --footer-lt-color: white;
+    /**********/
+    /* Buttons */
+    --buttons-primary-bg-color: var(--Selected-Color);
+    --buttons-primary-br-color: var(--Selected-Color);
+    --buttons-primary-lt-color: #fff;
+    --buttons-secondary-bg-color: #ffffff00;
+    --buttons-secondary-br-color: #ffffff00;
+    --buttons-secondary-lt-color: #6c757d;
+    /***********/
+    /* Grid */
+    --grid-head-font: bold var(--Grid-Font-Size) 'GothamMedium';
+    --grid-head-border: 1px solid var(--BackGroud-Color);
+    --grid-head-bg-color: var(--Back-Color);
+    --grid-head-lt-color: var(--BackGroud-Color);
+    --grid-body-font: var(--Grid-Font-Size) 'GothamMedium';
+    --grid-body-border: 1px solid red;
+    --grid-body-bg1-color: #b3d7e3;
+    --grid-body-lt1-color: black;
+    --grid-body-bg1-hover-color: black;
+    --grid-body-lt1-hover-color: black;
+    --grid-body-bg2-color: #ddebf6;
+    --grid-body-lt2-color: black;
+    --grid-body-bg2-hover-color: black;
+    --grid-body-lt2-hover-color: black;
+    /********/
+    /* Modal */
+    --modal-header-bg-color: var(--BackGroud-Color);
+    --modal-header-lt-color: var(--Selected-Color);
+    --modal-footer-bg-color: var(--BackGroud-Color);
+    --modal-footer-lt-color: black;
+    /*********/
+    /* Form */
+    --frm-error-color: #dc3545;
+    --frm-success-color: #28a745;
+    --frm-hd-bg-color: white;
+    --frm-hd-lt-color: black;
+    /********/
+}

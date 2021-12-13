@@ -1,0 +1,95 @@
+@{
+    var cardView = Html.DevExpress().CardView(settings =>
+    {
+        settings.Name = "CardView";
+        settings.CallbackRouteValues = new
+        {
+            Controller = "Home",
+            Action = "CardViewPartial" };
+
+        //settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+        //settings.Settings.VerticalScrollableHeight = 600;
+        //settings.SettingsPager.SettingsTableLayout.RowsPerPage = 6;
+        //settings.SettingsPager.EnableAdaptivity = true;
+
+        // settings.SettingsEditing.AddNewCardRouteValues = new { Controller = "Home", Action = "CardViewPartialDelete" };
+        //settings.SettingsEditing.UpdateCardRouteValues = new { Controller = "Home", Action = "CardViewPartialUpdate" };
+        settings.SettingsEditing.DeleteCardRouteValues = new { Controller = "Home", Action = "CardViewPartialDelete", };
+        settings.SettingsCommandButton.DeleteButton.Text = "Ver";
+        settings.SettingsEditing.Mode = CardViewEditingMode.EditForm;
+        settings.EnableCardsCache = false;
+
+        settings.Settings.VerticalScrollableHeight = 600;
+        settings.SettingsPager.SettingsTableLayout.ColumnCount = 2;
+        // settings.SettingsBehavior.ConfirmDelete = true;
+
+        settings.KeyFieldName = "idpropiedad";
+        settings.SettingsPager.Visible = true;
+        settings.Settings.ShowHeaderPanel = true;
+        settings.Settings.ShowHeaderFilterButton = true;
+        settings.SettingsBehavior.AllowSelectByCardClick = true;
+
+        //settings.Columns.Add("descripcion");
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "corta";
+            c.Caption = "Descripcion";
+        });
+
+
+        // settings.Columns.Add("numCuartos");
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "numCuartos";
+            c.Caption = "Habitaciones";
+        });
+        //settings.Columns.Add("precio");
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "espacioPersonas";
+            c.Caption = "Espacio Personas";
+        });
+
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "precio";
+            c.PropertiesEdit.DisplayFormatString = "c";
+        });
+
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "auxiliar";
+            c.ColumnType = MVCxCardViewColumnType.Image;
+            ((ImageEditProperties)c.PropertiesEdit).ImageWidth = 200;
+        });
+
+        settings.CardLayoutProperties.ColumnCount = 2;
+        settings.CardLayoutProperties.Items.Add(i =>
+        {
+            i.ColumnName = "auxiliar";
+            i.RowSpan = 6;
+            i.ShowCaption = DefaultBoolean.False;
+            i.VerticalAlign = FormLayoutVerticalAlign.Top;
+        });
+
+        settings.CardLayoutProperties.Items.AddCommandItem(i =>
+        {
+            //i.ShowNewButton = true;
+            //i.ShowEditButton = true;
+            i.ShowDeleteButton = true;
+        });
+        settings.CardLayoutProperties.Items.AddEditModeCommandItem();
+        settings.CardLayoutProperties.Items.Add("corta");
+        settings.CardLayoutProperties.Items.Add("espacioPersonas");
+        settings.CardLayoutProperties.Items.Add("numCuartos");
+        settings.CardLayoutProperties.Items.Add("precio");
+
+    });
+
+    if (ViewData["EditError"] != null)
+    {
+        cardView.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@cardView.Bind(Model).GetHtml()
+

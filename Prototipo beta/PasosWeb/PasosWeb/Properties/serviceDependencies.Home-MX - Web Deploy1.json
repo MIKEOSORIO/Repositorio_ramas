@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/servidor-homemx/databases/dbhomemx",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:servidor-homemx.database.windows.net"
+    }
+  }
+}

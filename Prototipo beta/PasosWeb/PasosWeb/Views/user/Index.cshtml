@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Lista de Usuarios";
+}
+<div class="site-breadcrumb">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">@ViewBag.Title.</li>
+        </ol>
+    </nav>
+</div>
+<div class="GridContainer">
+    <div class="form-group" style="overflow-x:auto;">
+        @Html.Action("GridViewPartial")
+    </div>
+</div>
+
+
+<script type="text/javascript">
+        function CustomButtonClick(s, e, url) {
+        var key = s.GetRowKey(e.visibleIndex);
+            if (e.buttonID === "btnGetKey") {
+            var destUrl = url + "/Index/" + key;
+            window.location.href = destUrl;
+        }
+    }
+</script>

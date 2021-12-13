@@ -1,0 +1,151 @@
+﻿@model PasosWeb.Models.propiedadGeneral
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/Content/style/PPublicar/style-publicar.css" rel="stylesheet">
+    <link href="~/Content/style/PPrincipal/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/style/PPrincipal/stylePrincipal.css" rel="stylesheet" />
+    <link href="~/Content/style/PPrincipal/color/default.css" rel="stylesheet" />
+
+    <title>REGISTRAR</title>
+
+</head>
+
+<body>
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="site-logo">
+                            <a href="/Home/Index"><img src="~/Images/logo-home.png" alt="" /></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="/Home/Index">Home</a></li>
+                                <li><a href="~/Home/Index">Home</a></li>
+                                <li><a href="~/EditarPropiedad/Index">Historial</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.Navbar-collapse -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+    </div>
+    <form action="GridViewPartialAddNew" method="post" enctype="multipart/form-data"  multiple = "true">
+        <section class="form-register111">
+            <h1>Registrar</h1>
+
+            @*<div>
+            <input class="controls2 " type="file" name="imagen" />
+        </div>*@
+
+            @*<div class="inputFields">
+            @Html.TextBoxFor(x => x.auxiliarPropiedad, new { type = "file", multiple = "true", enctype = "multipart/form-data"})
+
+        </div>*@
+
+            <input type="file" name="file" id="file" enctype="multipart/form-data" />
+            <br />
+            @Html.EditorFor(model => model.corta, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Descripción Corta" } })
+            @Html.EditorFor(model => model.descripcion, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Descripción Completa" } })
+            @Html.EditorFor(model => model.numCuartos, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Número de habitaciones" } })
+            @Html.EditorFor(model => model.espacioPersonas, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Total espacio para personas" } })
+            @Html.EditorFor(model => model.precio, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Precio" } })
+            @Html.EditorFor(model => model.deposito, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Deposito" } })
+            @Html.EditorFor(model => model.contrato, new { htmlAttributes = new { @class = "controls", PlaceHolder = "Contrato: Ejemplo: SÍ/NO" } })
+
+
+
+            <br />
+
+            <div class="alinear">
+                <section>
+
+
+                    <fieldset>
+
+                        <h5>Servicios</h5>
+
+                        <label for="INTERNET">INTERNET</label>
+                        @Html.CheckBoxFor(model => model.internet, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                        <label for="COMIDA">COMIDA</label>
+                        @Html.CheckBoxFor(model => model.comida, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                        <label for="LIMPIEZA">LIMPIEZA</label>
+                        @Html.CheckBoxFor(model => model.limpieza, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                        <label for="AMUEBLADA">AMUEBLADA</label>
+                        @Html.CheckBoxFor(model => model.amueblado, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                        <label for="PARKING">PARKING</label>
+                        @Html.CheckBoxFor(model => model.parking, new { htmlAttributes = new { @class = "form-control" } })
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="ALBERCA">ALBERCA</label>
+                        @Html.CheckBoxFor(model => model.alberca, new { htmlAttributes = new { @class = "form-control" } })
+
+                        <label for="CLIMA">CLIMA</label>
+                        @Html.CheckBoxFor(model => model.clima, new { htmlAttributes = new { @class = "form-control" } })
+
+                        <label for="TERRAZA">TERRAZA</label>
+                        @Html.CheckBoxFor(model => model.terraza, new { htmlAttributes = new { @class = "form-control" } })
+
+                        <label for="LAVANDERIA">LAVANDERIA</label>
+                        @Html.CheckBoxFor(model => model.lavanderia, new { htmlAttributes = new { @class = "form-control" } })
+                    </fieldset>
+
+
+
+                </section>
+            </div>
+            <br />
+
+
+            <div class="ubs">
+                <h3>Ubicacion</h3>
+                <div class="form-group-lg clearfix"></div>
+                @Html.EditorFor(model => model.calle, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Calle" } })
+                @Html.EditorFor(model => model.cruzamientos1, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Cruzamientos" } })
+                @Html.EditorFor(model => model.cruzamientos2, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Colonia" } })
+                @Html.EditorFor(model => model.exterior, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "No. Exterior" } })
+                @Html.EditorFor(model => model.localidad, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Localidad" } })
+                @Html.EditorFor(model => model.estado, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Estado" } })
+                @Html.EditorFor(model => model.cp, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Código Postal" } })
+                @Html.EditorFor(model => model.ubicacion, new { htmlAttributes = new { @class = "controls3", PlaceHolder = "Ubicación" } })
+            </div>
+
+            <input class="btn-grad" type="submit" value="Guardar">
+
+        </section>
+    </form>
+
+</body>
+
+</html>

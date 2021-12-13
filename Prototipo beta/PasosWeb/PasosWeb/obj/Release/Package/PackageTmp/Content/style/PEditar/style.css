@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+ width: 700px;
+ height: 300px;
+ border: 3px solid rgb(236, 149, 149);
+ margin: auto;
+ background-size: 100% 100%;
+ animation: banner 10s infinite;
+ animation-direction: alternate;
+}
+@keyframes banner {
+  0%, 30% {
+  background-image: url(ima/1.jpg);
+  opacity: 1;
+  }
+  31%, 34% {
+    opacity:0.1;
+  }
+  35% , 65% {
+    background-image: url(ima/2.jpg);
+    opacity:1;
+  }
+  66%, 69%{
+    opacity:0.1;
+  }
+  70% , 100% {
+    opacity:1;
+    background-image: url(ima/3.jpg);
+  }
+  
+}
+
+.form-descripcion {
+  width: 850px;
+  background:rgba(223, 245, 222, 0.541);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+  position: absolute;
+  left: 250px;
+}
+
+.form-descripcion h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+}
+
+.controls {
+  width: 50%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+  
+  
+  
+}
+
+.controls2 {
+  width: 30%;
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 5px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  
+}
+.controls3 {
+
+  width: 30%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+  
+  
+}
+
+.no-order11 div.checkbox{
+  float:left;
+  width:33%;
+  margin-bottom: 20px;
+  
+  
+
+}
+ p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+ .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.ser h3{
+  font-size: 22px;
+  margin-bottom: 30px;
+ text-align: center;
+}
+
+.dir h2{
+  font-size: 22px;
+  margin-bottom: 30px;
+ text-align: center;
+}

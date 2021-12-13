@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbhomemxModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="direccion">
+          <Key>
+            <PropertyRef Name="iddireccion" />
+          </Key>
+          <Property Name="iddireccion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="calle" Type="text" Nullable="false" />
+          <Property Name="cruzamiento1" Type="text" Nullable="false" />
+          <Property Name="cruzamiento2" Type="text" />
+          <Property Name="noExterior" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="localidad" Type="text" Nullable="false" />
+          <Property Name="entidadFed" Type="text" Nullable="false" />
+          <Property Name="cp" Type="int" Nullable="false" />
+          <Property Name="ubicacion" Type="text" Nullable="false" />
+          <Property Name="auxiliar" Type="text" />
+        </EntityType>
+        <EntityType Name="mensaje">
+          <Key>
+            <PropertyRef Name="idmensaje" />
+          </Key>
+          <Property Name="idmensaje" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="mensaje" Type="text" Nullable="false" />
+          <Property Name="idpropiedad" Type="int" Nullable="false" />
+          <Property Name="idEmisor" Type="int" />
+          <Property Name="idReceptor" Type="int" />
+          <Property Name="fecha" Type="date" />
+          <Property Name="status" Type="varchar" MaxLength="50" />
+          <Property Name="auxiliar" Type="text" />
+        </EntityType>
+        <EntityType Name="propiedad">
+          <Key>
+            <PropertyRef Name="idpropiedad" />
+          </Key>
+          <Property Name="idpropiedad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="descripcion" Type="text" Nullable="false" />
+          <Property Name="numCuartos" Type="int" Nullable="false" />
+          <Property Name="espacioPersonas" Type="int" Nullable="false" />
+          <Property Name="precio" Type="int" Nullable="false" />
+          <Property Name="deposito" Type="int" Nullable="false" />
+          <Property Name="fechaAlta" Type="date" />
+          <Property Name="status" Type="varchar" MaxLength="50" />
+          <Property Name="contrato" Type="varchar" MaxLength="50" />
+          <Property Name="iddireccion" Type="int" Nullable="false" />
+          <Property Name="idservicios" Type="int" Nullable="false" />
+          <Property Name="idusuario" Type="int" Nullable="false" />
+          <Property Name="auxiliar" Type="text" />
+          <Property Name="corta" Type="text" />
+        </EntityType>
+        <EntityType Name="renta">
+          <Key>
+            <PropertyRef Name="idrenta" />
+          </Key>
+          <Property Name="idrenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idusuario" Type="int" />
+          <Property Name="idpropiedad" Type="int" />
+          <Property Name="status" Type="varchar" MaxLength="30" />
+          <Property Name="auxiliar" Type="text" />
+        </EntityType>
+        <EntityType Name="servicios">
+          <Key>
+            <PropertyRef Name="idservicios" />
+          </Key>
+          <Property Name="idservicios" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="internet" Type="bit" />
+          <Property Name="comida" Type="bit" />
+          <Property Name="limpieza" Type="bit" />
+          <Property Name="amueblada" Type="bit" />
+          <Property Name="parking" Type="bit" />
+          <Property Name="alberca" Type="bit" />
+          <Property Name="clima" Type="bit" />
+          <Property Name="terraza" Type="bit" />
+          <Property Name="lavanderia" Type="bit" />
+          <Property Name="auxiliar" Type="text" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="idusuario" />
+          </Key>
+          <Property Name="idusuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="80" Nullable="false" />
+          <Property Name="apellido" Type="varchar" MaxLength="80" Nullable="false" />
+          <Property Name="correo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="contraseña" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="telefono" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="auxiliar" Type="text" />
+          <Property Name="idmensaje" Type="int" />
+        </EntityType>
+        <Association Name="FK_propiedad_direccion1">
+          <End Role="direccion" Type="Self.direccion" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="direccion">
+              <PropertyRef Name="iddireccion" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="iddireccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_propiedad_servicios1">
+          <End Role="servicios" Type="Self.servicios" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="servicios">
+              <PropertyRef Name="idservicios" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="idservicios" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_propiedad_usuario">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="idusuario" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="idusuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_renta_propiedad">
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="0..1" />
+          <End Role="renta" Type="Self.renta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="propiedad">
+              <PropertyRef Name="idpropiedad" />
+            </Principal>
+            <Dependent Role="renta">
+              <PropertyRef Name="idpropiedad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_renta_usuario1">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="renta" Type="Self.renta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="idusuario" />
+            </Principal>
+            <Dependent Role="renta">
+              <PropertyRef Name="idusuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usuario_mensaje1">
+          <End Role="mensaje" Type="Self.mensaje" Multiplicity="0..1" />
+          <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mensaje">
+              <PropertyRef Name="idmensaje" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="idmensaje" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="dbhomemxModelStoreContainer">
+          <EntitySet Name="direccion" EntityType="Self.direccion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="mensaje" EntityType="Self.mensaje" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="propiedad" EntityType="Self.propiedad" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="renta" EntityType="Self.renta" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="servicios" EntityType="Self.servicios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_propiedad_direccion1" Association="Self.FK_propiedad_direccion1">
+            <End Role="direccion" EntitySet="direccion" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_propiedad_servicios1" Association="Self.FK_propiedad_servicios1">
+            <End Role="servicios" EntitySet="servicios" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_propiedad_usuario" Association="Self.FK_propiedad_usuario">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_renta_propiedad" Association="Self.FK_renta_propiedad">
+            <End Role="propiedad" EntitySet="propiedad" />
+            <End Role="renta" EntitySet="renta" />
+          </AssociationSet>
+          <AssociationSet Name="FK_renta_usuario1" Association="Self.FK_renta_usuario1">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="renta" EntitySet="renta" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usuario_mensaje1" Association="Self.FK_usuario_mensaje1">
+            <End Role="mensaje" EntitySet="mensaje" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbhomemxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="direccion">
+          <Key>
+            <PropertyRef Name="iddireccion" />
+          </Key>
+          <Property Name="iddireccion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="calle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cruzamiento1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cruzamiento2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="noExterior" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="localidad" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="entidadFed" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cp" Type="Int32" Nullable="false" />
+          <Property Name="ubicacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_direccion1" FromRole="direccion" ToRole="propiedad" />
+        </EntityType>
+        <EntityType Name="mensaje">
+          <Key>
+            <PropertyRef Name="idmensaje" />
+          </Key>
+          <Property Name="idmensaje" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="mensaje1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idpropiedad" Type="Int32" Nullable="false" />
+          <Property Name="idEmisor" Type="Int32" />
+          <Property Name="idReceptor" Type="Int32" />
+          <Property Name="fecha" Type="DateTime" Precision="0" />
+          <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK_usuario_mensaje1" FromRole="mensaje" ToRole="usuario" />
+        </EntityType>
+        <EntityType Name="propiedad">
+          <Key>
+            <PropertyRef Name="idpropiedad" />
+          </Key>
+          <Property Name="idpropiedad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="numCuartos" Type="Int32" Nullable="false" />
+          <Property Name="espacioPersonas" Type="Int32" Nullable="false" />
+          <Property Name="precio" Type="Int32" Nullable="false" />
+          <Property Name="deposito" Type="Int32" Nullable="false" />
+          <Property Name="fechaAlta" Type="DateTime" Precision="0" />
+          <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="contrato" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="iddireccion" Type="Int32" Nullable="false" />
+          <Property Name="idservicios" Type="Int32" Nullable="false" />
+          <Property Name="idusuario" Type="Int32" Nullable="false" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="direccion" Relationship="Self.FK_propiedad_direccion1" FromRole="propiedad" ToRole="direccion" />
+          <NavigationProperty Name="servicios" Relationship="Self.FK_propiedad_servicios1" FromRole="propiedad" ToRole="servicios" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK_propiedad_usuario" FromRole="propiedad" ToRole="usuario" />
+          <NavigationProperty Name="renta" Relationship="Self.FK_renta_propiedad" FromRole="propiedad" ToRole="renta" />
+          <Property Name="corta" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="renta">
+          <Key>
+            <PropertyRef Name="idrenta" />
+          </Key>
+          <Property Name="idrenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idusuario" Type="Int32" />
+          <Property Name="idpropiedad" Type="Int32" />
+          <Property Name="status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="propiedad" Relationship="Self.FK_renta_propiedad" FromRole="renta" ToRole="propiedad" />
+          <NavigationProperty Name="usuario" Relationship="Self.FK_renta_usuario1" FromRole="renta" ToRole="usuario" />
+        </EntityType>
+        <EntityType Name="servicios">
+          <Key>
+            <PropertyRef Name="idservicios" />
+          </Key>
+          <Property Name="idservicios" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="internet" Type="Boolean" />
+          <Property Name="comida" Type="Boolean" />
+          <Property Name="limpieza" Type="Boolean" />
+          <Property Name="amueblada" Type="Boolean" />
+          <Property Name="parking" Type="Boolean" />
+          <Property Name="alberca" Type="Boolean" />
+          <Property Name="clima" Type="Boolean" />
+          <Property Name="terraza" Type="Boolean" />
+          <Property Name="lavanderia" Type="Boolean" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_servicios1" FromRole="servicios" ToRole="propiedad" />
+        </EntityType>
+        <EntityType Name="usuario">
+          <Key>
+            <PropertyRef Name="idusuario" />
+          </Key>
+          <Property Name="idusuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="apellido" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contraseña" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="auxiliar" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="idmensaje" Type="Int32" />
+          <NavigationProperty Name="mensaje" Relationship="Self.FK_usuario_mensaje1" FromRole="usuario" ToRole="mensaje" />
+          <NavigationProperty Name="propiedad" Relationship="Self.FK_propiedad_usuario" FromRole="usuario" ToRole="propiedad" />
+          <NavigationProperty Name="renta" Relationship="Self.FK_renta_usuario1" FromRole="usuario" ToRole="renta" />
+        </EntityType>
+        <Association Name="FK_propiedad_direccion1">
+          <End Role="direccion" Type="Self.direccion" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="direccion">
+              <PropertyRef Name="iddireccion" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="iddireccion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usuario_mensaje1">
+          <End Role="mensaje" Type="Self.mensaje" Multiplicity="0..1" />
+          <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="mensaje">
+              <PropertyRef Name="idmensaje" />
+            </Principal>
+            <Dependent Role="usuario">
+              <PropertyRef Name="idmensaje" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_propiedad_servicios1">
+          <End Role="servicios" Type="Self.servicios" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="servicios">
+              <PropertyRef Name="idservicios" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="idservicios" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_propiedad_usuario">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="idusuario" />
+            </Principal>
+            <Dependent Role="propiedad">
+              <PropertyRef Name="idusuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_renta_propiedad">
+          <End Role="propiedad" Type="Self.propiedad" Multiplicity="0..1" />
+          <End Role="renta" Type="Self.renta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="propiedad">
+              <PropertyRef Name="idpropiedad" />
+            </Principal>
+            <Dependent Role="renta">
+              <PropertyRef Name="idpropiedad" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_renta_usuario1">
+          <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+          <End Role="renta" Type="Self.renta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usuario">
+              <PropertyRef Name="idusuario" />
+            </Principal>
+            <Dependent Role="renta">
+              <PropertyRef Name="idusuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="dbhomemxEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="direccion" EntityType="Self.direccion" />
+          <EntitySet Name="mensaje" EntityType="Self.mensaje" />
+          <EntitySet Name="propiedad" EntityType="Self.propiedad" />
+          <EntitySet Name="renta" EntityType="Self.renta" />
+          <EntitySet Name="servicios" EntityType="Self.servicios" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" />
+          <AssociationSet Name="FK_propiedad_direccion1" Association="Self.FK_propiedad_direccion1">
+            <End Role="direccion" EntitySet="direccion" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usuario_mensaje1" Association="Self.FK_usuario_mensaje1">
+            <End Role="mensaje" EntitySet="mensaje" />
+            <End Role="usuario" EntitySet="usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_propiedad_servicios1" Association="Self.FK_propiedad_servicios1">
+            <End Role="servicios" EntitySet="servicios" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_propiedad_usuario" Association="Self.FK_propiedad_usuario">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="propiedad" EntitySet="propiedad" />
+          </AssociationSet>
+          <AssociationSet Name="FK_renta_propiedad" Association="Self.FK_renta_propiedad">
+            <End Role="propiedad" EntitySet="propiedad" />
+            <End Role="renta" EntitySet="renta" />
+          </AssociationSet>
+          <AssociationSet Name="FK_renta_usuario1" Association="Self.FK_renta_usuario1">
+            <End Role="usuario" EntitySet="usuario" />
+            <End Role="renta" EntitySet="renta" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbhomemxModelStoreContainer" CdmEntityContainer="dbhomemxEntities2">
+          <EntitySetMapping Name="direccion">
+            <EntityTypeMapping TypeName="dbhomemxModel.direccion">
+              <MappingFragment StoreEntitySet="direccion">
+                <ScalarProperty Name="iddireccion" ColumnName="iddireccion" />
+                <ScalarProperty Name="calle" ColumnName="calle" />
+                <ScalarProperty Name="cruzamiento1" ColumnName="cruzamiento1" />
+                <ScalarProperty Name="cruzamiento2" ColumnName="cruzamiento2" />
+                <ScalarProperty Name="noExterior" ColumnName="noExterior" />
+                <ScalarProperty Name="localidad" ColumnName="localidad" />
+                <ScalarProperty Name="entidadFed" ColumnName="entidadFed" />
+                <ScalarProperty Name="cp" ColumnName="cp" />
+                <ScalarProperty Name="ubicacion" ColumnName="ubicacion" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="mensaje">
+            <EntityTypeMapping TypeName="dbhomemxModel.mensaje">
+              <MappingFragment StoreEntitySet="mensaje">
+                <ScalarProperty Name="idmensaje" ColumnName="idmensaje" />
+                <ScalarProperty Name="mensaje1" ColumnName="mensaje" />
+                <ScalarProperty Name="idpropiedad" ColumnName="idpropiedad" />
+                <ScalarProperty Name="idEmisor" ColumnName="idEmisor" />
+                <ScalarProperty Name="idReceptor" ColumnName="idReceptor" />
+                <ScalarProperty Name="fecha" ColumnName="fecha" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="propiedad">
+            <EntityTypeMapping TypeName="dbhomemxModel.propiedad">
+              <MappingFragment StoreEntitySet="propiedad">
+                <ScalarProperty Name="corta" ColumnName="corta" />
+                <ScalarProperty Name="idpropiedad" ColumnName="idpropiedad" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="numCuartos" ColumnName="numCuartos" />
+                <ScalarProperty Name="espacioPersonas" ColumnName="espacioPersonas" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="deposito" ColumnName="deposito" />
+                <ScalarProperty Name="fechaAlta" ColumnName="fechaAlta" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="contrato" ColumnName="contrato" />
+                <ScalarProperty Name="iddireccion" ColumnName="iddireccion" />
+                <ScalarProperty Name="idservicios" ColumnName="idservicios" />
+                <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="renta">
+            <EntityTypeMapping TypeName="dbhomemxModel.renta">
+              <MappingFragment StoreEntitySet="renta">
+                <ScalarProperty Name="idrenta" ColumnName="idrenta" />
+                <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+                <ScalarProperty Name="idpropiedad" ColumnName="idpropiedad" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="servicios">
+            <EntityTypeMapping TypeName="dbhomemxModel.servicios">
+              <MappingFragment StoreEntitySet="servicios">
+                <ScalarProperty Name="idservicios" ColumnName="idservicios" />
+                <ScalarProperty Name="internet" ColumnName="internet" />
+                <ScalarProperty Name="comida" ColumnName="comida" />
+                <ScalarProperty Name="limpieza" ColumnName="limpieza" />
+                <ScalarProperty Name="amueblada" ColumnName="amueblada" />
+                <ScalarProperty Name="parking" ColumnName="parking" />
+                <ScalarProperty Name="alberca" ColumnName="alberca" />
+                <ScalarProperty Name="clima" ColumnName="clima" />
+                <ScalarProperty Name="terraza" ColumnName="terraza" />
+                <ScalarProperty Name="lavanderia" ColumnName="lavanderia" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usuario">
+            <EntityTypeMapping TypeName="dbhomemxModel.usuario">
+              <MappingFragment StoreEntitySet="usuario">
+                <ScalarProperty Name="idusuario" ColumnName="idusuario" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="auxiliar" ColumnName="auxiliar" />
+                <ScalarProperty Name="idmensaje" ColumnName="idmensaje" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

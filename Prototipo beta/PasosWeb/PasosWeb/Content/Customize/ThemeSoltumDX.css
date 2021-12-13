@@ -1,0 +1,163 @@
+﻿.dxmLite .dxm-main {
+    background-color: var(--BackGroud-Color) !important;
+}
+
+.dxm-item {
+    font-family: 'GothamBook';
+}
+
+.dxgvAdaptiveGroupPanel, .dxgvGroupPanel {
+    background-color: var(--BackGroud-Color);
+    color: var(--Lines-Color: #d7dce4);
+    border-bottom: 1px Solid #9F9F9F;
+    font-family: 'GothamBook';
+}
+
+.dxgvHeader, .dxgvHeader table {
+    background-color: var(--grid-head-bg-color) !important;
+    color: var(--grid-head-lt-color) !important;
+    font: var(--grid-head-font);
+}
+
+.dxgvFilterRow, .dxeTextBox .dxeEditArea {
+    background-color: var(--BackGroud-Color);
+    color: var(--labes-color-Soltum);
+}
+
+.dxgvTable dxgvDataRow {
+    background-color: blue;
+}
+
+.dxgvFocusedRow {
+    background-color: var(--grid-body-bg2-color) !important;
+    color: black;
+}
+
+.dxgvCommandColumn .dxbButtonSys {
+    font-family: 'GothamBook';
+    color: var(--Selected-Color) !important;
+}
+.dxgvSelectedRow .dxgvCommandColumn a, .dxgvSelectedRow .dxgvAIC a, .dxgvFocusedRow .dxgvCommandColumn a, .dxgvFocusedRow .dxgvAIC a {
+    color: var(--Back-Color) !important;
+}
+
+.dxgvGroupRow {
+    background-color: var(--BackGroud-Color);
+    font-family: 'GothamMedium' !important;
+    font-size: 9pt !important;
+}
+
+.dxgvFocusedGroupRow {
+    background-color: var(--grid-body-bg1-color);
+}
+
+.dxeFocused {
+    border-color: var(--Selected-Color);
+    color: var(--labes-color-Soltum);
+}
+
+.dxpLite {
+    font-family: 'GothamBook';
+}
+
+.dxp-lead {
+    padding: 8px 15px !important;
+}
+
+.dxp-num {
+    margin: 0 !important;
+    padding: 7.5px 0 !important;
+    width: 22px;
+    border: 1px var(--Lines-Color) solid;
+    color: var(--Selected-Color) !important;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.dxp-current::first-letter {
+    color: white !important;
+}
+
+.dxp-bti {
+    width: 70px;
+    padding: 5px 0 !important;
+    margin: 0 !important;
+    border: 1px var(--Lines-Color) solid;
+    color: var(--Selected-Color) !important;
+    text-decoration: none !important;
+    text-align: center !important;
+}
+
+.dxp-bti span{
+    text-decoration: none !important;
+}
+    .dxp-bti img{
+        display: none !important;
+    }
+
+#grid_DXFilterRow,
+#grid_DXFilterRow table tr {
+    background-color: var(--BackGroud-Color);
+}
+
+td #grid_DXMainTable tbody .dxgvDataRow {
+    background-color: var(--BackGroud-Color);
+    font: var(--grid-body-font) !important;
+}
+
+/*td #grid_DXMainTable tbody .dxgvDataRow:nth-child(odd) {
+    background: var(--grid-body-bg1-color);
+    font: var(--grid-body-font) !important;
+}
+
+td #grid_DXMainTable tbody .dxgvDataRow:nth-child(even) {
+    background: var(--grid-body-bg2-color);
+    font: var(--grid-body-font) !important;
+}*/
+
+
+
+
+.dxp-current {
+    background-color: var(--Selected-Color) !important;
+}
+
+.dxpc-headerText {
+    color: var(--Selected-Color);
+}
+
+.dx-datagrid-checkbox-size.dx-checkbox-checked .dx-checkbox-icon {
+    border: 1px solid red;
+}
+
+/*   Modal   */
+.dxflFormLayout, .dxeTextBoxSys,
+.dxpc-mainDiv, .dxpc-mainDiv .dxpc-header {
+    background: var(--BackGroud-Color);
+    font-family: 'GothamBook' !important;
+}
+
+    .dxpc-mainDiv .dxpc-header {
+        font-size: 12pt;
+    }
+
+.dxflCaption {
+    font-size: 10pt !important;
+}
+        /*   Botones de Modal    */
+.dxflNestedControlCell .dxbButtonSys {
+    background: var(--Selected-Color);
+    padding: 4px 8px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-family: 'GothamBook';
+}
+
+.dxflNestedControlCell .dxbButtonSys:hover {
+    color: white;
+}
+
+    .dxflNestedControlCell .dxbButtonSys:active {
+        background-color: var(--Back-Color);
+    }

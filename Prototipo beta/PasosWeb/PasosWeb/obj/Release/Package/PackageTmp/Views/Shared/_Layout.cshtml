@@ -1,0 +1,281 @@
+﻿
+@using DevExpress.Web.Mvc.UI
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.2" lang="es-mx">
+    <title>@ViewBag.Title - HOME.MX</title>
+    <link rel="icon" type="image/png" href="~/Images/logo-home.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    @*@Styles.Render("~/Content/bundle")
+    @Scripts.Render("~/Scripts/bundle")
+    @Styles.Render("~/Content/fonts/Fonts.css")
+    @Styles.Render("~/Content/Customize/SoltumVariables.css")
+    @Styles.Render("~/Content/Customize/Menu.css")
+    @Styles.Render("~/Content/Customize/soltum-main.css")
+    @Styles.Render("~/Content/Customize/soltum-tooltip-custom.css")*@
+</head>
+<body>
+    @*<button id="BurgerButton" type="button" class="navbar-toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <nav id="navbar_main" class="navbar navbar-inverse navbar-fixed-top" style="height: 53px;">
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <a href="#">
+                    <img src="~/Images/pazossanchez.png" alt="ReviSAT" class="navbar-brand" />
+                    <div class="navbar-brand">
+                    </div>
+                </a>
+            </div>
+            <div id="groupwinLogin">
+                <div class="LabelUserName"><label id="LabelUserName">@Session["LoginUser"]</label></div>
+                <div id="butwinLogin" data-toggle="collapse" data-target=".win-Login">
+                    <img src="~/Images/Btn_Perfil.png" alt="" />
+                </div>
+                <div id="winLogin" class="win-Login collapse">
+                    <div class="win-Login-info">
+                        <div id="UserInfo">
+                            <div class="px-4 py-2 user-data">
+                                <div class="UserInfoTitle">Datos de sesión</div>
+                            </div>
+                            <div class="ContainerUserInfo">
+                                <div class="UserInfoLabels">
+                                        <label id="lblTipoUser"></label>
+                                    </div>
+                                <div class="UserInfoLabels">
+                                    <label id="lblUser">@Session["LoginUser"]</label>
+                                </div>
+                                <div class="UserInfoLabels">
+                                        <label id="lblEmpresa"></label>
+                                    </div>
+                                    <div class="UserInfoLabels">
+                                        <label id="lblEmail"></label>
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="divCambPass">
+                                <a id="hrefCambioPass" class="UserinfoButton" href="#">¿Cambiar Contraseña?</a>
+                            </div>
+                            <div id="divDatosProveedor">
+                                <a id="hrefConsultaDatosProveedor" class="UserinfoButton" href="DatosProveedor.aspx">Ver Información Proveedor.</a>
+                            </div>
+                            <div id="divContratosProveedor">
+                                <a id="hrefContratosProveedor" class="UserinfoButton" href="DatosProveedor.aspx">Agregar Contratos.</a>
+                            </div>
+                            <div id="btnLoguear" class="UserinfoButton">Cambio de Sesión</div>
+                            <a id="btnSalir" class="UserinfoButton" href="Index.aspx">Cerrar Sesión</a>
+                        @Html.ActionLink("Cerrar sesión", "Login", "Account", null, new { @class = "UserinfoButton" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>*@
+
+    @*<div id="menuasd" class="">
+        <div id="myUL" class="menu-collapse">
+            <div class="config-menu-drop Content_Card" id="CardMenu01">
+                <a id="Menu01" class="card" href="~/user/Index">
+                    <div class="card-header">
+                        <img src="~/Images/user.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Usuarios</h6>
+                    </div>
+                    <span class="tooltiptext">Usuarios del Sistema</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu01">
+                <a id="Menu01" class="card" href="~/clientes/Index">
+                    <div class="card-header">
+                        <img src="~/Images/hand.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Clientes</h6>
+                    </div>
+                    <span class="tooltiptext">Clientes de la Empresa</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu02">
+                <a id="Menu02" class="card" href="~/colaborador/Index">
+                    <div class="card-header">
+                        <img src="~/Images/team-leader.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Colaboradores</h6>
+                    </div>
+                    <span class="tooltiptext">Lista de Colaboradores</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu03">
+                <a id="Menu03" class="card" href="~/citas/Index">
+                    <div class="card-header">
+                        <img src="~/Images/date.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Citas</h6>
+                    </div>
+                    <span class="tooltiptext">Citas con Clientes</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu03">
+                <a id="Menu03" class="card" href="~/cotizaciones/Index">
+                    <div class="card-header">
+                        <img src="~/Images/budget.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Cotizaciones</h6>
+                    </div>
+                    <span class="tooltiptext">Cotizaciones</span>
+                </a>
+            </div>
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/cuentas/Index">
+                    <div class="card-header">
+                        <img src="~/Images/money-bag.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Cuentas</h6>
+                    </div>
+                    <span class="tooltiptext">Cuentas</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+            <a id="Menu04" class="card" href="~/cxc/Index">
+                <div class="card-header">
+                    <img src="~/Images/dollar.png" class="imgLogo" />
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Cuentas x Cobrar</h6>
+                </div>
+                <span class="tooltiptext">Cuentas x Cobrar</span>
+            </a>
+        </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/gastos/Index">
+                    <div class="card-header">
+                        <img src="~/Images/payment.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Gastos</h6>
+                    </div>
+                    <span class="tooltiptext">Gastos</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/inventario/Index">
+                    <div class="card-header">
+                        <img src="~/Images/inventory.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Inventario</h6>
+                    </div>
+                    <span class="tooltiptext">Inventario</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/inventarioBaja/Index">
+                    <div class="card-header">
+                        <img src="~/Images/damage.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Inventario de Baja</h6>
+                    </div>
+                    <span class="tooltiptext">Inventario de Baja</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/listasNegras/Index">
+                    <div class="card-header">
+                        <img src="~/Images/blacklist.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Listas Negras</h6>
+                    </div>
+                    <span class="tooltiptext">Listas Negras</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+            <a id="Menu04" class="card" href="~/prestamos/Index">
+                <div class="card-header">
+                    <img src="~/Images/car-loan.png" class="imgLogo" />
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Prestamos</h6>
+                </div>
+                <span class="tooltiptext">Prestamos</span>
+            </a>
+        </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+            <a id="Menu04" class="card" href="~/pagos/Index">
+                <div class="card-header">
+                    <img src="~/Images/car-loan.png" class="imgLogo" />
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Pagos</h6>
+                </div>
+                <span class="tooltiptext">Pagos</span>
+            </a>
+        </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/archivos/Index">
+                    <div class="card-header">
+                        <img src="~/Images/document.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Archivos</h6>
+                    </div>
+                    <span class="tooltiptext">Administracion de Archivos</span>
+                </a>
+            </div>
+
+            <div class="config-menu-drop Content_Card" id="CardMenu04">
+                <a id="Menu04" class="card" href="~/ReporteCuenta/Index">
+                    <div class="card-header">
+                        <img src="~/Images/reports.png" class="imgLogo" />
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title" data-i18n="kiosko.site-master.menu-configuracion">Reportes</h6>
+                    </div>
+                    <span class="tooltiptext">Reportes</span>
+                </a>
+            </div>
+        </div>
+
+    </div>*@
+
+    <div id="bodyPage" class="container body-content">
+        @RenderBody()
+        @*<footer>
+            <p>&copy; @DateTime.Now.Year - Pazos Sanchez Construcciones. Todos los derechos reservados. </p>
+           
+        </footer>*@
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/View/Shared/Menu.js")
+    @Styles.Render("~/Content/Customize/ThemeSoltumDX.css")
+    @RenderSection("scripts", required: false)*@
+</body>
+</html>

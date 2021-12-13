@@ -1,0 +1,12 @@
+﻿@model PasosWeb.Models.ErrorInfo
+
+
+<div class="container">
+    <div class="h2 text-danger" >
+        @Html.ValueFor(model => model.Message)
+    </div>
+
+    <div class="h4 text-info">
+        @Html.ValueFor(model => model.Description)
+    </div>
+</div>

@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5652EAC3-C615-47A7-BC9D-8B9C9BBCA99B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PasosWeb</RootNamespace>
+    <AssemblyName>PasosWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.Mvc5.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.Resources.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Web, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExtreme.AspNet.Data, Version=2.6.1.0, Culture=neutral, PublicKeyToken=982f5dab1439d0f7, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExtreme.AspNet.Data.2.6.1\lib\net452\DevExtreme.AspNet.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExtreme.AspNet.Mvc">
+      <HintPath>..\lib\DevExtreme\DevExtreme.AspNet.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\avatar.png" />
+    <Content Include="Content\backgroundindex.jpg" />
+    <Content Include="Content\backgroundindex.png" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrapAngel.css" />
+    <Content Include="Content\cultura.css" />
+    <Content Include="Content\Customize\Login.css" />
+    <Content Include="Content\Customize\Menu.css" />
+    <Content Include="Content\Customize\soltum-main.css" />
+    <Content Include="Content\Customize\soltum-tooltip-custom.css" />
+    <Content Include="Content\Customize\SoltumVariables.css" />
+    <Content Include="Content\Customize\Style.css" />
+    <Content Include="Content\Customize\ThemeSoltumDX.css" />
+    <Content Include="Content\dx-diagram.css" />
+    <Content Include="Content\dx-diagram.min.css" />
+    <Content Include="Content\dx-gantt.css" />
+    <Content Include="Content\dx-gantt.min.css" />
+    <Content Include="Content\dx.carmine.compact.css" />
+    <Content Include="Content\dx.carmine.css" />
+    <Content Include="Content\dx.common.css" />
+    <Content Include="Content\dx.contrast.compact.css" />
+    <Content Include="Content\dx.contrast.css" />
+    <Content Include="Content\dx.dark.compact.css" />
+    <Content Include="Content\dx.dark.css" />
+    <Content Include="Content\dx.darkmoon.compact.css" />
+    <Content Include="Content\dx.darkmoon.css" />
+    <Content Include="Content\dx.darkviolet.compact.css" />
+    <Content Include="Content\dx.darkviolet.css" />
+    <Content Include="Content\dx.greenmist.compact.css" />
+    <Content Include="Content\dx.greenmist.css" />
+    <Content Include="Content\dx.ios7.default.css" />
+    <Content Include="Content\dx.light.compact.css" />
+    <Content Include="Content\dx.light.css" />
+    <Content Include="Content\dx.material.blue.dark.compact.css" />
+    <Content Include="Content\dx.material.blue.dark.css" />
+    <Content Include="Content\dx.material.blue.light.compact.css" />
+    <Content Include="Content\dx.material.blue.light.css" />
+    <Content Include="Content\dx.material.lime.dark.compact.css" />
+    <Content Include="Content\dx.material.lime.dark.css" />
+    <Content Include="Content\dx.material.lime.light.compact.css" />
+    <Content Include="Content\dx.material.lime.light.css" />
+    <Content Include="Content\dx.material.orange.dark.compact.css" />
+    <Content Include="Content\dx.material.orange.dark.css" />
+    <Content Include="Content\dx.material.orange.light.compact.css" />
+    <Content Include="Content\dx.material.orange.light.css" />
+    <Content Include="Content\dx.material.purple.dark.compact.css" />
+    <Content Include="Content\dx.material.purple.dark.css" />
+    <Content Include="Content\dx.material.purple.light.compact.css" />
+    <Content Include="Content\dx.material.purple.light.css" />
+    <Content Include="Content\dx.material.teal.dark.compact.css" />
+    <Content Include="Content\dx.material.teal.dark.css" />
+    <Content Include="Content\dx.material.teal.light.compact.css" />
+    <Content Include="Content\dx.material.teal.light.css" />
+    <Content Include="Content\dx.softblue.compact.css" />
+    <Content Include="Content\dx.softblue.css" />
+    <Content Include="Content\dx.spa.css" />
+    <Content Include="Content\fondo.png" />
+    <Content Include="Content\fonts\Fonts.css" />
+    <Content Include="Content\fonts\OFL.txt" />
+    <Content Include="Content\ico2.png" />
+    <Content Include="Content\icon.png" />
+    <Content Include="Content\icons\gear.png" />
+    <Content Include="Content\icons\global.png" />
+    <Content Include="Content\icons\height.png" />
+    <Content Include="Content\icons\idea.png" />
+    <Content Include="Content\icons\internet.png" />
+    <Content Include="Content\icons\logoversion.png" />
+    <Content Include="Content\icons\settings.png" />
+    <Content Include="Content\icons\team.png" />
+    <Content Include="Content\login.css" />
+    <Content Include="Content\logoversion.png" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\style\PPrincipal\animate.css" />
+    <Content Include="Content\style\PPrincipal\bootstrap.css" />
+    <Content Include="Content\style\PPrincipal\bootstrap.min.css" />
+    <Content Include="Content\style\PPrincipal\color\default.css" />
+    <Content Include="Content\style\PPrincipal\flexslider.css" />
+    <Content Include="Content\style\PPrincipal\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\style\PPrincipal\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\style\PPrincipal\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\style\PPrincipal\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\style\PPrincipal\fonts\pe-icon\Pe-icon-7-stroke.svg" />
+    <Content Include="Content\style\PPrincipal\helper.css" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\close%402x.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\close.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\default.css" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\loading%402x.gif" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\loading.gif" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\next%402x.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\next.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\prev%402x.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox-theme\default\prev.png" />
+    <Content Include="Content\style\PPrincipal\nivo-lightbox.css" />
+    <Content Include="Content\style\PPrincipal\owl.carousel.css" />
+    <Content Include="Content\style\PPrincipal\owl.theme.css" />
+    <Content Include="Content\style\PPrincipal\pe-icon-7-stroke.css" />
+    <Content Include="Content\style\PPrincipal\slippry.css" />
+    <Content Include="Content\style\PPrincipal\stylePrincipal.css" />
+    <Content Include="Content\style\PPublicar\style-publicar.css" />
+    <Content Include="Content\style\Registro\RegistroStyle.css" />
+    <Content Include="Content\style\style.css" />
+    <Content Include="Departamentos\ejemplo.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\blacklist.png" />
+    <Content Include="Images\Btn_Autorizar-selec.png" />
+    <Content Include="Images\Btn_Autorizar-sin-selec.png" />
+    <Content Include="Images\Btn_Búsqueda.png" />
+    <Content Include="Images\Btn_Carga-Excel-de-OC.png" />
+    <Content Include="Images\Btn_Descargar-Excel.png" />
+    <Content Include="Images\Btn_Nuevo.png" />
+    <Content Include="Images\Btn_Perfil.png" />
+    <Content Include="Images\Btn_Rechazar-Selec.png" />
+    <Content Include="Images\Btn_Rechazar-sin-selec.png" />
+    <Content Include="Images\Btn_Reenviar-ERP.png" />
+    <Content Include="Images\budget.png" />
+    <Content Include="Images\car-loan.png" />
+    <Content Include="Images\damage.png" />
+    <Content Include="Images\date.png" />
+    <Content Include="Images\document.png" />
+    <Content Include="Images\dollar.png" />
+    <Content Include="Images\fondo-login.jpg" />
+    <Content Include="Images\Fondo-Portal-Proveedor-2000x1200pxv2.png" />
+    <Content Include="Images\hand.png" />
+    <Content Include="Images\home.mx logo.jpeg" />
+    <Content Include="Images\Iconos-Portal-Intranet-15.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-16.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-17.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-18.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-Clientes.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-Productos.png" />
+    <Content Include="Images\Iconos-Portal-Intranet-Satelites.png" />
+    <Content Include="Images\inventory.png" />
+    <Content Include="Images\money-bag.png" />
+    <Content Include="Images\parallax\2.jpg" />
+    <Content Include="Images\parallax\3.jpg" />
+    <Content Include="Images\parallax\pexels-photo-2082089.jpeg" />
+    <Content Include="Images\payment.png" />
+    <Content Include="Images\pazossanchez.png" />
+    <Content Include="Images\pexels-johannes-plenio-1103970.jpg" />
+    <Content Include="Images\profile.png" />
+    <Content Include="Images\Registro\background-registro.jpg" />
+    <Content Include="Images\Registro\logo-mx.png" />
+    <Content Include="Images\reports.png" />
+    <Content Include="Images\slides\pexels-slider-1.jpeg" />
+    <Content Include="Images\slides\pexels-slider-2.jpeg" />
+    <Content Include="Images\slides\pexels-slider.jpeg" />
+    <Content Include="Images\social.png" />
+    <Content Include="Images\team-leader.png" />
+    <Content Include="Images\teamwork.png" />
+    <Content Include="Images\team\1.png" />
+    <Content Include="Images\team\2.png" />
+    <Content Include="Images\team\3.png" />
+    <Content Include="Images\team\4.png" />
+    <Content Include="Images\team\5.png" />
+    <Content Include="Images\team\6.png" />
+    <Content Include="Images\team\7.png" />
+    <Content Include="Images\user.png" />
+    <Content Include="Images\works\1.jpg" />
+    <Content Include="Images\works\2.jpg" />
+    <Content Include="Images\works\3.jpg" />
+    <Content Include="Images\works\4.jpg" />
+    <Content Include="Images\works\5.jpg" />
+    <Content Include="Images\works\6.jpg" />
+    <Content Include="Images\works\7.jpg" />
+    <Content Include="Images\works\8.jpg" />
+    <Content Include="Images\logo-home.png" />
+    <Content Include="Scripts\ace.js" />
+    <Content Include="Scripts\aspnet\dx.aspnet.data.js" />
+    <Content Include="Scripts\aspnet\dx.aspnet.mvc.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\cldr.js" />
+    <Content Include="Scripts\cldr.min.js" />
+    <Content Include="Scripts\cldr\event.js" />
+    <Content Include="Scripts\cldr\event.min.js" />
+    <Content Include="Scripts\cldr\supplemental.js" />
+    <Content Include="Scripts\cldr\supplemental.min.js" />
+    <Content Include="Scripts\cldr\unresolved.js" />
+    <Content Include="Scripts\cldr\unresolved.min.js" />
+    <Content Include="Scripts\dx-diagram.js" />
+    <Content Include="Scripts\dx-diagram.min.js" />
+    <Content Include="Scripts\dx-gantt.js" />
+    <Content Include="Scripts\dx-gantt.min.js" />
+    <Content Include="Scripts\dx.all.debug.js" />
+    <Content Include="Scripts\dx.all.js" />
+    <Content Include="Scripts\dx.mobile.debug.js" />
+    <Content Include="Scripts\dx.mobile.js" />
+    <Content Include="Scripts\dx.viz-web.debug.js" />
+    <Content Include="Scripts\dx.viz-web.js" />
+    <Content Include="Scripts\dx.viz.debug.js" />
+    <Content Include="Scripts\dx.viz.js" />
+    <Content Include="Scripts\dx.web.debug.js" />
+    <Content Include="Scripts\dx.web.js" />
+    <Content Include="Scripts\globalize.js" />
+    <Content Include="Scripts\globalize.min.js" />
+    <Content Include="Scripts\globalize\currency.js" />
+    <Content Include="Scripts\globalize\currency.min.js" />
+    <Content Include="Scripts\globalize\date.js" />
+    <Content Include="Scripts\globalize\date.min.js" />
+    <Content Include="Scripts\globalize\message.js" />
+    <Content Include="Scripts\globalize\message.min.js" />
+    <Content Include="Scripts\globalize\number.js" />
+    <Content Include="Scripts\globalize\number.min.js" />
+    <Content Include="Content\fonts\Montserrat-Black.ttf" />
+    <Content Include="Content\fonts\Montserrat-BlackItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Bold.ttf" />
+    <Content Include="Content\fonts\Montserrat-BoldItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-ExtraBold.ttf" />
+    <Content Include="Content\fonts\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-ExtraLight.ttf" />
+    <Content Include="Content\fonts\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Italic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Light.ttf" />
+    <Content Include="Content\fonts\Montserrat-LightItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Medium.ttf" />
+    <Content Include="Content\fonts\Montserrat-MediumItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Regular.ttf" />
+    <Content Include="Content\fonts\Montserrat-SemiBold.ttf" />
+    <Content Include="Content\fonts\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="Content\fonts\Montserrat-Thin.ttf" />
+    <Content Include="Content\fonts\Montserrat-ThinItalic.ttf" />
+    <Content Include="Scripts\cldr.js.bak" />
+    <Content Include="Scripts\cldr.min.js.bak" />
+    <Content Include="Scripts\dx.all.debug.js.bak" />
+    <Content Include="Scripts\dx.all.js.bak" />
+    <Content Include="Scripts\dx.viz-web.debug.js.bak" />
+    <Content Include="Scripts\dx.viz-web.js.bak" />
+    <Content Include="Scripts\dx.viz.debug.js.bak" />
+    <Content Include="Scripts\dx.viz.js.bak" />
+    <Content Include="Scripts\dx.web.debug.js.bak" />
+    <Content Include="Scripts\dx.web.js.bak" />
+    <Content Include="Scripts\globalize.js.bak" />
+    <Content Include="Scripts\globalize.min.js.bak" />
+    <Content Include="Scripts\jquery-3.1.0.min.map" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\dx.carmine.compact.css.bak" />
+    <Content Include="Content\dx.carmine.css.bak" />
+    <Content Include="Content\dx.common.css.bak" />
+    <Content Include="Content\dx.contrast.compact.css.bak" />
+    <Content Include="Content\dx.contrast.css.bak" />
+    <Content Include="Content\dx.dark.compact.css.bak" />
+    <Content Include="Content\dx.dark.css.bak" />
+    <Content Include="Content\dx.darkmoon.compact.css.bak" />
+    <Content Include="Content\dx.darkmoon.css.bak" />
+    <Content Include="Content\dx.darkviolet.compact.css.bak" />
+    <Content Include="Content\dx.darkviolet.css.bak" />
+    <Content Include="Content\dx.greenmist.compact.css.bak" />
+    <Content Include="Content\dx.greenmist.css.bak" />
+    <Content Include="Content\dx.ios7.default.css.bak" />
+    <Content Include="Content\dx.light.compact.css.bak" />
+    <Content Include="Content\dx.light.css.bak" />
+    <Content Include="Content\dx.material.blue.light.css.bak" />
+    <Content Include="Content\dx.softblue.compact.css.bak" />
+    <Content Include="Content\dx.softblue.css.bak" />
+    <Content Include="Content\fonts\Roboto-300.ttf.bak" />
+    <Content Include="Content\fonts\Roboto-300.woff.bak" />
+    <Content Include="Content\fonts\Roboto-300.woff2.bak" />
+    <Content Include="Content\fonts\Roboto-400.ttf.bak" />
+    <Content Include="Content\fonts\Roboto-400.woff.bak" />
+    <Content Include="Content\fonts\Roboto-400.woff2.bak" />
+    <Content Include="Content\fonts\Roboto-500.ttf.bak" />
+    <Content Include="Content\fonts\Roboto-500.woff.bak" />
+    <Content Include="Content\fonts\Roboto-500.woff2.bak" />
+    <Content Include="Content\icons\dxicons.ttf.bak" />
+    <Content Include="Content\icons\dxicons.woff.bak" />
+    <Content Include="Content\icons\dxicons.woff2.bak" />
+    <Content Include="Content\icons\dxiconsios.ttf.bak" />
+    <Content Include="Content\icons\dxiconsios.woff.bak" />
+    <Content Include="Content\icons\dxiconsios.woff2.bak" />
+    <Content Include="Content\icons\dxiconsmaterial.ttf.bak" />
+    <Content Include="Content\icons\dxiconsmaterial.woff.bak" />
+    <Content Include="Content\icons\dxiconsmaterial.woff2.bak" />
+    <Content Include="Content\style\PPrincipal\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\style\PPrincipal\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\style\PPrincipal\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\style\PPrincipal\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\core.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\fixed-width.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\font-awesome.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\icons.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\larger.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\list.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\mixins.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\path.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\spinning.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\stacked.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\less\variables.less" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_core.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_icons.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_larger.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_list.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_mixins.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_path.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_spinning.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_stacked.scss" />
+    <Content Include="Content\style\PPrincipal\font-awesome\scss\_variables.scss" />
+    <Content Include="Content\style\PPrincipal\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\style\PPrincipal\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\style\PPrincipal\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\style\PPrincipal\fonts\pe-icon\Pe-icon-7-stroke.eot" />
+    <Content Include="Content\style\PPrincipal\fonts\pe-icon\Pe-icon-7-stroke.ttf" />
+    <Content Include="Content\style\PPrincipal\fonts\pe-icon\Pe-icon-7-stroke.woff" />
+    <None Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <None Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.5.1.js" />
+    <Content Include="Scripts\jquery-3.5.1.min.js" />
+    <Content Include="Scripts\jquery-3.5.1.slim.js" />
+    <Content Include="Scripts\jquery-3.5.1.slim.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jszip.js" />
+    <Content Include="Scripts\jszip.min.js" />
+    <Content Include="Scripts\knockout-3.5.1.js" />
+    <Content Include="Scripts\localization\dx.messages.cs.js" />
+    <Content Include="Scripts\localization\dx.messages.de.js" />
+    <Content Include="Scripts\localization\dx.messages.el.js" />
+    <Content Include="Scripts\localization\dx.messages.en.js" />
+    <Content Include="Scripts\localization\dx.messages.es.js" />
+    <Content Include="Scripts\localization\dx.messages.fi.js" />
+    <Content Include="Scripts\localization\dx.messages.fr.js" />
+    <Content Include="Scripts\localization\dx.messages.hu.js" />
+    <Content Include="Scripts\localization\dx.messages.it.js" />
+    <Content Include="Scripts\localization\dx.messages.ja.js" />
+    <Content Include="Scripts\localization\dx.messages.nl.js" />
+    <Content Include="Scripts\localization\dx.messages.pt.js" />
+    <Content Include="Scripts\localization\dx.messages.ru.js" />
+    <Content Include="Scripts\localization\dx.messages.sl.js" />
+    <Content Include="Scripts\localization\dx.messages.sv.js" />
+    <Content Include="Scripts\localization\dx.messages.tr.js" />
+    <Content Include="Scripts\localization\dx.messages.vi.js" />
+    <Content Include="Scripts\localization\dx.messages.zh.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\vectormap-data\africa.js" />
+    <Content Include="Scripts\vectormap-data\canada.js" />
+    <Content Include="Scripts\vectormap-data\eurasia.js" />
+    <Content Include="Scripts\vectormap-data\europe.js" />
+    <Content Include="Scripts\vectormap-data\usa.js" />
+    <Content Include="Scripts\vectormap-data\world.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.debug.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.node.js" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.5.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.5.1.min.map" />
+    <Content Include="Scripts\jszip.js.bak" />
+    <Content Include="Scripts\jszip.min.js.bak" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\View\contactform\contactform.js" />
+    <Content Include="Scripts\View\contactform\contactform.php" />
+    <Content Include="Scripts\View\PPrincipal\bootstrap.js" />
+    <Content Include="Scripts\View\PPrincipal\bootstrap.min.js" />
+    <Content Include="Scripts\View\PPrincipal\custom.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.appear.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.easing.min.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.fitvids.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.flexslider-min.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.mb.YTPlayer.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.min.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.nicescroll.min.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.scrollTo.js" />
+    <Content Include="Scripts\View\PPrincipal\jquery.sticky.js" />
+    <Content Include="Scripts\View\PPrincipal\morphext.min.js" />
+    <Content Include="Scripts\View\PPrincipal\nivo-lightbox.min.js" />
+    <Content Include="Scripts\View\PPrincipal\owl.carousel.min.js" />
+    <Content Include="Scripts\View\PPrincipal\slippry.min.js" />
+    <Content Include="Scripts\View\PPrincipal\stellar.js" />
+    <Content Include="Scripts\View\PPrincipal\waypoints.min.js" />
+    <Content Include="Scripts\View\PPrincipal\wow.min.js" />
+    <Content Include="Scripts\View\Shared\Menu.js" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-300.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-300.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-300.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-400.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-400.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-400.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-500.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-500.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-500.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-700.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-700.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Roboto-700.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxicons.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxicons.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxicons.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsios.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsios.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsios.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsmaterial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsmaterial.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\icons\dxiconsmaterial.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\ErrorWebsite.cshtml" />
+    <Content Include="Views\_LayoutPage1.cshtml" />
+    <Content Include="Views\user\Index.cshtml" />
+    <Content Include="Views\user\_GridViewPartial.cshtml" />
+    <Content Include="Views\Account\Forgot.cshtml" />
+    <Content Include="Views\Home\_CardViewPartial.cshtml" />
+    <Content Include="Views\Propiedad\Index.cshtml" />
+    <Content Include="Views\PaginaPrincipal\Index.cshtml" />
+    <Content Include="Views\Registro\Index.cshtml" />
+    <Content Include="Views\PublicarPropiedad\Index.cshtml" />
+    <Content Include="Views\VisualizarPropiedad\Index.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DevExtremeBundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Filters\VerifySesion.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PaginaPrincipalController.cs" />
+    <Compile Include="Controllers\PropiedadController.cs" />
+    <Compile Include="Controllers\PublicarPropiedadController.cs" />
+    <Compile Include="Controllers\RegistroController.cs" />
+    <Compile Include="Controllers\VisualizarPropiedadController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ErrorInfo.cs" />
+    <Compile Include="Models\Formulario.cs" />
+    <Compile Include="Models\propiedadGeneral.cs" />
+    <Compile Include="Models\SampleData.cs" />
+    <Compile Include="Models\SampleOrder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55937</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5928/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties TemplateFeatures="NET CS" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

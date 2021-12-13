@@ -1,0 +1,104 @@
+﻿@model PasosWeb.Models.usuario
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" lang="es-mx">
+    <link rel="icon" type="image/svg" href="~/Images/home.mx logo.jpeg">
+    <title>@ViewBag.Title - Web</title>
+    @*<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">*@
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">*@
+
+    <script src="https://kit.fontawesome.com/c0878fc0ac.js" crossorigin="anonymous"></script>
+
+    @*@Styles.Render("~/Content/css")*@
+    @*@Styles.Render("~/Content/bundle")*@
+    @*@Scripts.Render("~/bundles/modernizr")*@
+    @*@Scripts.Render("~/Scripts/bundle")*@
+    @Styles.Render("~/Content/Customize/SoltumVariables.css")
+    @Styles.Render("~/Content/fonts/Fonts.css")
+    @Styles.Render("~/Content/Customize/Login.css")
+</head>
+<body>
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryval")*@
+    <div class="container">
+        <div class="login-container">
+            <div class="brand-login-container">
+                <div class="brand_container">
+                    <img src="~/Images/home.mx logo.jpeg" id="logoLoginIndex" class="brand_logo" alt="Logo" />
+                </div>
+            </div>
+            <div class="form_container">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                <form id="frmLogin">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <div class="input-group-icon">
+                            <span class="input-group-text">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        @*@Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label container-control-Login" })*@
+                        <div class="input-group-Editor">
+                            @Html.EditorFor(model => model.correo, new { htmlAttributes = new { @class = "form-control", PlaceHolder = "Correo Electrónico" } })
+                        </div>
+                        @*@Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })*@
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group-icon">
+                            <span class="input-group-text">
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        @*@Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label container-control-Login" })*@
+                        <div class="input-group-Editor">
+                            @Html.PasswordFor(model => model.contraseña, new { @class = "form-control", PlaceHolder = "Contraseña" })
+                        </div>
+                        @*@Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })*@
+                    </div>
+
+                    <div class="submit_login_container">
+                        <div class="container-control-Login">
+                            <input type="submit" value="Iniciar Sesión" class="btn btn-login" />
+                        </div>
+                    </div>
+                    <div class="forgotpass-login-container">
+                        @Html.ActionLink("¿Olvidaste tu Contraseña?", "Forgot", new { controller = "Account" }, new { @class = "forgotpass" })
+                    </div>
+                    <div class="redirigir">
+                    <br>
+                    <a href="~/Registro/Index">¿No tienes una cuenta?</a><br>
+                    <a href="~/PaginaPrincipal/Index">Regresar al Inicio</a> 
+                    </div>
+                </form>
+                }
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+
+        <footer>
+            <div>&copy; @DateTime.Now.Year -Home.mx. Todos los derechos reservados.</div>
+        </footer>
+    </div>
+    <div id="loadingMask"></div>
+    <div id="alert_placeholder" class="alert-container"></div>
+</body>
+
+</html>
+

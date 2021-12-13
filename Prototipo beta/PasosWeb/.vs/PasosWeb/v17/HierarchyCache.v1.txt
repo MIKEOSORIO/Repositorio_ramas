@@ -1,0 +1,1011 @@
+﻿++Solución "PasosWeb" ‎(1 de 1 proyecto)
+i:{00000000-0000-0000-0000-000000000000}:PasosWeb.sln
+++PasosWeb
+i:{00000000-0000-0000-0000-000000000000}:PasosWeb
+++Properties
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\properties\
+++Referencias
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++App_Start
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\
+++BundleConfig.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\bundleconfig.cs
+++DevExtremeBundleConfig.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\devextremebundleconfig.cs
+++FilterConfig.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\filterconfig.cs
+++RouteConfig.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\routeconfig.cs
+++WebApiConfig.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\app_start\webapiconfig.cs
+++Content
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\
+++Customize
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\
+++fonts
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\
+++icons
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\
+++style
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\
+++avatar.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\avatar.png
+++backgroundindex.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\backgroundindex.jpg
+++backgroundindex.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\backgroundindex.png
+++bootstrap-theme.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\bootstrap.css
+++bootstrap.css.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap.css.map
+++bootstrap.min.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap.min.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\bootstrap.min.css
+++bootstrap.min.css.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrap.min.css.map
+++bootstrapAngel.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\bootstrapangel.css
+++cultura.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\cultura.css
+++dx-diagram.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx-diagram.css
+++dx-diagram.min.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx-diagram.min.css
+++dx-gantt.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx-gantt.css
+++dx-gantt.min.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx-gantt.min.css
+++dx.carmine.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.carmine.compact.css
+++dx.carmine.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.carmine.compact.css.bak
+++dx.carmine.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.carmine.css
+++dx.carmine.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.carmine.css.bak
+++dx.common.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.common.css
+++dx.common.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.common.css.bak
+++dx.contrast.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.contrast.compact.css
+++dx.contrast.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.contrast.compact.css.bak
+++dx.contrast.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.contrast.css
+++dx.contrast.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.contrast.css.bak
+++dx.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.dark.compact.css
+++dx.dark.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.dark.compact.css.bak
+++dx.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.dark.css
+++dx.dark.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.dark.css.bak
+++dx.darkmoon.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkmoon.compact.css
+++dx.darkmoon.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkmoon.compact.css.bak
+++dx.darkmoon.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkmoon.css
+++dx.darkmoon.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkmoon.css.bak
+++dx.darkviolet.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkviolet.compact.css
+++dx.darkviolet.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkviolet.compact.css.bak
+++dx.darkviolet.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkviolet.css
+++dx.darkviolet.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.darkviolet.css.bak
+++dx.greenmist.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.greenmist.compact.css
+++dx.greenmist.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.greenmist.compact.css.bak
+++dx.greenmist.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.greenmist.css
+++dx.greenmist.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.greenmist.css.bak
+++dx.ios7.default.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.ios7.default.css
+++dx.ios7.default.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.ios7.default.css.bak
+++dx.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.light.compact.css
+++dx.light.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.light.compact.css.bak
+++dx.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.light.css
+++dx.light.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.light.css.bak
+++dx.material.blue.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.blue.dark.compact.css
+++dx.material.blue.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.blue.dark.css
+++dx.material.blue.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.blue.light.compact.css
+++dx.material.blue.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.blue.light.css
+++dx.material.blue.light.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.blue.light.css.bak
+++dx.material.lime.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.lime.dark.compact.css
+++dx.material.lime.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.lime.dark.css
+++dx.material.lime.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.lime.light.compact.css
+++dx.material.lime.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.lime.light.css
+++dx.material.orange.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.orange.dark.compact.css
+++dx.material.orange.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.orange.dark.css
+++dx.material.orange.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.orange.light.compact.css
+++dx.material.orange.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.orange.light.css
+++dx.material.purple.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.purple.dark.compact.css
+++dx.material.purple.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.purple.dark.css
+++dx.material.purple.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.purple.light.compact.css
+++dx.material.purple.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.purple.light.css
+++dx.material.teal.dark.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.teal.dark.compact.css
+++dx.material.teal.dark.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.teal.dark.css
+++dx.material.teal.light.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.teal.light.compact.css
+++dx.material.teal.light.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.material.teal.light.css
+++dx.softblue.compact.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.softblue.compact.css
+++dx.softblue.compact.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.softblue.compact.css.bak
+++dx.softblue.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.softblue.css
+++dx.softblue.css.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.softblue.css.bak
+++dx.spa.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\dx.spa.css
+++fondo.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fondo.png
+++ico2.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\ico2.png
+++icon.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icon.png
+++login.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\login.css
+++logoversion.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\logoversion.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\logoversion.png
+++Site.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\site.css
+++Controllers
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\
+++Filters
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\filters\
+++AccountController.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\accountcontroller.cs
+++HomeController.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\homecontroller.cs
+++PaginaPrincipalController.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\paginaprincipalcontroller.cs
+++PropiedadController.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\propiedadcontroller.cs
+++Departamentos
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\departamentos\
+++ejemplo.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\departamentos\ejemplo.jpg
+++Images
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\
+++blacklist.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\blacklist.png
+++Btn_Autorizar-selec.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_autorizar-selec.png
+++Btn_Autorizar-sin-selec.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_autorizar-sin-selec.png
+++Btn_Búsqueda.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_búsqueda.png
+++Btn_Carga-Excel-de-OC.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_carga-excel-de-oc.png
+++Btn_Descargar-Excel.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_descargar-excel.png
+++Btn_Nuevo.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_nuevo.png
+++Btn_Perfil.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_perfil.png
+++Btn_Rechazar-Selec.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_rechazar-selec.png
+++Btn_Rechazar-sin-selec.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_rechazar-sin-selec.png
+++Btn_Reenviar-ERP.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\btn_reenviar-erp.png
+++budget.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\budget.png
+++car-loan.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\car-loan.png
+++damage.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\damage.png
+++date.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\date.png
+++document.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\document.png
+++dollar.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\dollar.png
+++Fondo-Portal-Proveedor-2000x1200pxv2.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\fondo-portal-proveedor-2000x1200pxv2.png
+++hand.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\hand.png
+++Iconos-Portal-Intranet-15.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-15.png
+++Iconos-Portal-Intranet-16.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-16.png
+++Iconos-Portal-Intranet-17.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-17.png
+++Iconos-Portal-Intranet-18.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-18.png
+++Iconos-Portal-Intranet-Clientes.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-clientes.png
+++Iconos-Portal-Intranet-Productos.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-productos.png
+++Iconos-Portal-Intranet-Satelites.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\iconos-portal-intranet-satelites.png
+++inventory.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\inventory.png
+++logohome.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\logohome.png
+++money-bag.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\money-bag.png
+++payment.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\payment.png
+++pazossanchez.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\pazossanchez.png
+++pexels-johannes-plenio-1103970.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\pexels-johannes-plenio-1103970.jpg
+++profile.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\profile.png
+++reports.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\reports.png
+++social.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\social.png
+++team-leader.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team-leader.png
+++teamwork.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\teamwork.png
+++user.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\user.png
+++Models
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\
+++ErrorInfo.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\errorinfo.cs
+++Model1.edmx
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.edmx
+++propiedadGeneral.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\propiedadgeneral.cs
+++SampleData.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\sampledata.cs
+++SampleOrder.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\sampleorder.cs
+++Scripts
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\
+++aspnet
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\aspnet\
+++dx.aspnet.data.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\aspnet\dx.aspnet.data.js
+++dx.aspnet.mvc.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\aspnet\dx.aspnet.mvc.js
+++cldr
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\
+++event.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\event.js
+++event.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\event.min.js
+++supplemental.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\supplemental.js
+++supplemental.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\supplemental.min.js
+++unresolved.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\unresolved.js
+++unresolved.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr\unresolved.min.js
+++globalize
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\
+++currency.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\currency.js
+++currency.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\currency.min.js
+++date.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\date.js
+++date.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\date.min.js
+++message.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\message.js
+++message.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\message.min.js
+++number.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\number.js
+++number.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize\number.min.js
+++localization
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\
+++dx.messages.cs.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.cs.js
+++dx.messages.de.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.de.js
+++dx.messages.el.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.el.js
+++dx.messages.en.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.en.js
+++dx.messages.es.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.es.js
+++dx.messages.fi.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.fi.js
+++dx.messages.fr.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.fr.js
+++dx.messages.hu.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.hu.js
+++dx.messages.it.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.it.js
+++dx.messages.ja.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.ja.js
+++dx.messages.nl.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.nl.js
+++dx.messages.pt.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.pt.js
+++dx.messages.ru.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.ru.js
+++dx.messages.sl.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.sl.js
+++dx.messages.sv.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.sv.js
+++dx.messages.tr.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.tr.js
+++dx.messages.vi.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.vi.js
+++dx.messages.zh.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\localization\dx.messages.zh.js
+++vectormap-data
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\
+++vectormap-utils
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-utils\
+++dx.vectormaputils.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-utils\dx.vectormaputils.debug.js
+++dx.vectormaputils.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-utils\dx.vectormaputils.js
+++dx.vectormaputils.node.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-utils\dx.vectormaputils.node.js
+++View
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\
+++contactform
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\contactform\
+++contactform.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\contactform\contactform.js
+++contactform.php
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\contactform\contactform.php
+++PPrincipal
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\
+++bootstrap.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\bootstrap.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\bootstrap.js
+++bootstrap.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\bootstrap.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\bootstrap.min.js
+++custom.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\custom.js
+++gmap.js
+++jquery.appear.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.appear.js
+++jquery.easing.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.easing.min.js
+++jquery.fitvids.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.fitvids.js
+++jquery.flexslider-min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.flexslider-min.js
+++jquery.mb.YTPlayer.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.mb.ytplayer.js
+++jquery.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.min.js
+++jquery.nicescroll.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.nicescroll.min.js
+++jquery.scrollTo.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.scrollto.js
+++jquery.sticky.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\jquery.sticky.js
+++morphext.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\morphext.min.js
+++nivo-lightbox.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\nivo-lightbox.min.js
+++owl.carousel.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\owl.carousel.min.js
+++slippry.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\slippry.min.js
+++stellar.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\stellar.js
+++waypoints.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\waypoints.min.js
+++wow.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\pprincipal\wow.min.js
+++Shared
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\shared\
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\shared\
+++Menu.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\view\shared\menu.js
+++_references.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\_references.js
+++ace.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\ace.js
+++cldr.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr.js
+++cldr.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr.js.bak
+++cldr.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr.min.js
+++cldr.min.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\cldr.min.js.bak
+++dx-diagram.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx-diagram.js
+++dx-diagram.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx-diagram.min.js
+++dx-gantt.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx-gantt.js
+++dx-gantt.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx-gantt.min.js
+++dx.all.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.all.debug.js
+++dx.all.debug.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.all.debug.js.bak
+++dx.all.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.all.js
+++dx.all.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.all.js.bak
+++dx.mobile.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.mobile.debug.js
+++dx.mobile.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.mobile.js
+++dx.viz-web.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz-web.debug.js
+++dx.viz-web.debug.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz-web.debug.js.bak
+++dx.viz-web.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz-web.js
+++dx.viz-web.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz-web.js.bak
+++dx.viz.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz.debug.js
+++dx.viz.debug.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz.debug.js.bak
+++dx.viz.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz.js
+++dx.viz.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.viz.js.bak
+++dx.web.debug.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.web.debug.js
+++dx.web.debug.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.web.debug.js.bak
+++dx.web.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.web.js
+++dx.web.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\dx.web.js.bak
+++globalize.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize.js
+++globalize.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize.js.bak
+++globalize.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize.min.js
+++globalize.min.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\globalize.min.js.bak
+++jquery-3.1.0.intellisense.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.intellisense.js
+++jquery-3.1.0.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.js
+++jquery-3.1.0.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.min.js
+++jquery-3.1.0.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.min.map
+++jquery-3.1.0.slim.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.slim.js
+++jquery-3.1.0.slim.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.slim.min.js
+++jquery-3.1.0.slim.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.1.0.slim.min.map
+++jquery-3.3.1.intellisense.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.intellisense.js
+++jquery-3.3.1.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.js
+++jquery-3.3.1.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.min.js
+++jquery-3.3.1.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.min.map
+++jquery-3.3.1.slim.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.slim.js
+++jquery-3.3.1.slim.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.slim.min.js
+++jquery-3.3.1.slim.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.3.1.slim.min.map
+++jquery-3.5.1.intellisense.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.intellisense.js
+++jquery-3.5.1.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.js
+++jquery-3.5.1.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.min.js
+++jquery-3.5.1.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.min.map
+++jquery-3.5.1.slim.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.slim.js
+++jquery-3.5.1.slim.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.slim.min.js
+++jquery-3.5.1.slim.min.map
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-3.5.1.slim.min.map
+++jquery-ui.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery-ui.js
+++jquery.validate-vsdoc.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery.validate-vsdoc.js
+++jquery.validate.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery.validate.js
+++jquery.validate.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery.validate.min.js
+++jquery.validate.unobtrusive.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jquery.validate.unobtrusive.min.js
+++jszip.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jszip.js
+++jszip.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jszip.js.bak
+++jszip.min.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jszip.min.js
+++jszip.min.js.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\jszip.min.js.bak
+++knockout-3.5.1.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\knockout-3.5.1.js
+++modernizr-2.8.3.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\modernizr-2.8.3.js
+++Views
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\
+++Account
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\account\
+++Forgot.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\account\forgot.cshtml
+++Login.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\account\login.cshtml
+++Home
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\home\
+++_CardViewPartial.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\home\_cardviewpartial.cshtml
+++Index.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\home\index.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\paginaprincipal\index.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\propiedad\index.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\user\index.cshtml
+++PaginaPrincipal
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\paginaprincipal\
+++Propiedad
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\propiedad\
+++user
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\user\
+++_LayoutPage1.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\_layoutpage1.cshtml
+++_ViewStart.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\_viewstart.cshtml
+++Web.config
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\web.config
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\web.config
+++favicon.ico
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\favicon.ico
+++Global.asax
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\global.asax
+++packages.config
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\packages.config
+++AssemblyInfo.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\properties\assemblyinfo.cs
+++Antlr3.Runtime
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Charts.v20.1.Core
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Data.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Printing.v20.1.Core
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.RichEdit.v20.1.Core
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.RichEdit.v20.1.Export
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Web.ASPxThemes.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Web.Mvc5.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Web.Resources.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.Web.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.XtraCharts.v20.1
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExpress.XtraCharts.v20.1.Web
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExtreme.AspNet.Data
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++DevExtreme.AspNet.Mvc
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++EntityFramework
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++EntityFramework.SqlServer
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++Microsoft.CSharp
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++Microsoft.Web.Infrastructure
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++Newtonsoft.Json
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.ComponentModel.DataAnnotations
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Configuration
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Data
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Data.DataSetExtensions
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Drawing
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Net.Http
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Net.Http.Formatting
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Runtime.Serialization
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Security
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.ApplicationServices
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.DynamicData
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Entity
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Extensions
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Helpers
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Http
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Http.WebHost
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Mvc
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Optimization
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.Razor
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.WebPages
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.WebPages.Deployment
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Web.WebPages.Razor
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Xml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++System.Xml.Linq
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++WebGrease
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:
+++Login.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\login.css
+++Menu.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\menu.css
+++soltum-main.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\soltum-main.css
+++soltum-tooltip-custom.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\soltum-tooltip-custom.css
+++SoltumVariables.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\soltumvariables.css
+++Style.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\style.css
+++ThemeSoltumDX.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\customize\themesoltumdx.css
+++Fonts.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\fonts.css
+++Montserrat-Black.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-black.ttf
+++Montserrat-BlackItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-blackitalic.ttf
+++Montserrat-Bold.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-bold.ttf
+++Montserrat-BoldItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-bolditalic.ttf
+++Montserrat-ExtraBold.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-extrabold.ttf
+++Montserrat-ExtraBoldItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-extrabolditalic.ttf
+++Montserrat-ExtraLight.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-extralight.ttf
+++Montserrat-ExtraLightItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-extralightitalic.ttf
+++Montserrat-Italic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-italic.ttf
+++Montserrat-Light.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-light.ttf
+++Montserrat-LightItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-lightitalic.ttf
+++Montserrat-Medium.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-medium.ttf
+++Montserrat-MediumItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-mediumitalic.ttf
+++Montserrat-Regular.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-regular.ttf
+++Montserrat-SemiBold.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-semibold.ttf
+++Montserrat-SemiBoldItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-semibolditalic.ttf
+++Montserrat-Thin.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-thin.ttf
+++Montserrat-ThinItalic.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\montserrat-thinitalic.ttf
+++OFL.txt
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\ofl.txt
+++Roboto-300.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.ttf
+++Roboto-300.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.ttf.bak
+++Roboto-300.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.woff
+++Roboto-300.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.woff.bak
+++Roboto-300.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.woff2
+++Roboto-300.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-300.woff2.bak
+++Roboto-400.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.ttf
+++Roboto-400.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.ttf.bak
+++Roboto-400.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.woff
+++Roboto-400.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.woff.bak
+++Roboto-400.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.woff2
+++Roboto-400.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-400.woff2.bak
+++Roboto-500.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.ttf
+++Roboto-500.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.ttf.bak
+++Roboto-500.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.woff
+++Roboto-500.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.woff.bak
+++Roboto-500.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.woff2
+++Roboto-500.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-500.woff2.bak
+++Roboto-700.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-700.ttf
+++Roboto-700.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-700.woff
+++Roboto-700.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\fonts\roboto-700.woff2
+++dxicons.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.ttf
+++dxicons.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.ttf.bak
+++dxicons.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.woff
+++dxicons.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.woff.bak
+++dxicons.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.woff2
+++dxicons.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxicons.woff2.bak
+++dxiconsios.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.ttf
+++dxiconsios.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.ttf.bak
+++dxiconsios.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.woff
+++dxiconsios.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.woff.bak
+++dxiconsios.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.woff2
+++dxiconsios.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsios.woff2.bak
+++dxiconsmaterial.ttf
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.ttf
+++dxiconsmaterial.ttf.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.ttf.bak
+++dxiconsmaterial.woff
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.woff
+++dxiconsmaterial.woff.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.woff.bak
+++dxiconsmaterial.woff2
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.woff2
+++dxiconsmaterial.woff2.bak
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\dxiconsmaterial.woff2.bak
+++gear.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\gear.png
+++global.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\global.png
+++height.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\height.png
+++idea.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\idea.png
+++internet.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\internet.png
+++settings.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\settings.png
+++team.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\icons\team.png
+++style.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\style.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\style.css
+++VerifySesion.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\controllers\filters\verifysesion.cs
+++Model1.Context.tt
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.context.tt
+++Model1.Designer.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.designer.cs
+++Model1.edmx.diagram
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.edmx.diagram
+++Model1.tt
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.tt
+++africa.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\africa.js
+++canada.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\canada.js
+++eurasia.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\eurasia.js
+++europe.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\europe.js
+++usa.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\usa.js
+++world.js
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\scripts\vectormap-data\world.js
+++_Layout.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\shared\_layout.cshtml
+++Error.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\shared\error.cshtml
+++ErrorWebsite.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\shared\errorwebsite.cshtml
+++_GridViewPartial.cshtml
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\views\user\_gridviewpartial.cshtml
+++Global.asax.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\global.asax.cs
+++Web.Debug.config
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\web.debug.config
+++Web.Release.config
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\web.release.config
+++Model1.Context.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.context.cs
+++direccion.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\direccion.cs
+++imagen.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\imagen.cs
+++mensaje.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\mensaje.cs
+++Model1.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\model1.cs
+++propiedad.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\propiedad.cs
+++renta.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\renta.cs
+++servicios.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\servicios.cs
+++sysdiagrams.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\sysdiagrams.cs
+++usuario.cs
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\models\usuario.cs
+++NewFolder1
+++estilos2.css
+++estilos3.css
+++estilos4.css
+++index-dinamico-estilos.css
+++main.css
+++styleN.css
+++all.min.css
+++estilo3.css
+++estiloCRUD.css
+++estilos.css
+++nivo-lightbox-theme
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\
+++default
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\
+++close.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\close.png
+++close@2x.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\close@2x.png
+++default.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\default.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\color\default.css
+++loading.gif
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\loading.gif
+++loading@2x.gif
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\loading@2x.gif
+++next.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\next.png
+++next@2x.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\next@2x.png
+++prev.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\prev.png
+++prev@2x.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox-theme\default\prev@2x.png
+++animate.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\animate.css
+++flexslider.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\flexslider.css
+++helper.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\helper.css
+++nivo-lightbox.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\nivo-lightbox.css
+++owl.carousel.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\owl.carousel.css
+++owl.theme.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\owl.theme.css
+++pe-icon-7-stroke.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\pe-icon-7-stroke.css
+++slippry.css
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\slippry.css
+++color
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\content\style\pprincipal\color\
+++pexels-slider.jpeg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\slides\pexels-slider.jpeg
+++pexels-slider-1.jpeg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\slides\pexels-slider-1.jpeg
+++pexels-slider-2.jpeg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\slides\pexels-slider-2.jpeg
+++team
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\
+++1.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\1.png
+++2.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\2.png
+++3.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\3.png
+++5.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\5.png
+++4.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\4.png
+++6.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\6.png
+++7.png
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\team\7.png
+++works
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\
+++1.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\1.jpg
+++2.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\2.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\parallax\2.jpg
+++3.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\3.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\parallax\3.jpg
+++4.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\4.jpg
+++5.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\5.jpg
+++6.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\6.jpg
+++7.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\7.jpg
+++8.jpg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\works\8.jpg
+++slides
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\slides\
+++parallax
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\parallax\
+++pexels-photo-2082089.jpeg
+i:{5652eac3-c615-47a7-bc9d-8b9c9bbca99b}:c:\users\migue\desktop\home.mx\miguel-prototipo\prototipo beta\pasosweb\pasosweb\images\parallax\pexels-photo-2082089.jpeg

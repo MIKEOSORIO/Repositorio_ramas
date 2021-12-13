@@ -1,0 +1,57 @@
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PRINCIPAL | HOME.MX</title>
+    <link href="~/Content/style/PPrincipal/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/style/PPrincipal/stylePrincipal.css" rel="stylesheet" />
+    <link href="~/Content/style/PPrincipal/color/default.css" rel="stylesheet" />
+
+</head>
+<div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="site-logo">
+                        <a href="index.html"><img src="~/Images/logo-home.png" alt="" /></a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-10">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="~/PublicarPropiedad/Index">Publicar</a></li>
+                            <li><a href="">Historial</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.Navbar-collapse -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
+<body>
+        @Html.Action("CardViewPartial")
+
+</body>
+
+</html>

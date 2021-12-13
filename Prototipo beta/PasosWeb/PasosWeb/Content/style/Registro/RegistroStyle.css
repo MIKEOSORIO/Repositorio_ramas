@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../../../Images/Registro/background-registro.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-box {
+    width: 20rem;
+    height: 40rem;
+    background: #FE7A66;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 20px;
+}
+
+    .login-box .avatar {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -1rem;
+        left: calc(50% - 50px);
+    }
+
+    .login-box h1 {
+        margin: 0;
+        padding: 0 0 1rem;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .login-box label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+    }
+
+    .login-box input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"],
+        .login-box input[type="email"],
+        .login-box input[type="phone"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .login-box input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #b80f22;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+
+            .login-box input[type="submit"]:hover {
+                cursor: pointer;
+                background: #ffd207;
+                color: #fff;
+            }
+
+    .login-box a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+    }
+
+        .login-box a:hover {
+            color: #fff;
+        }

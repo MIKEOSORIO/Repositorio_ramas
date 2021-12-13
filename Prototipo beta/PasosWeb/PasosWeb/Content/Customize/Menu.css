@@ -1,0 +1,203 @@
+﻿.LabelUserName {
+    font-family: 'GothamBook';
+    display: block;
+    position: absolute;
+    top: 17px;
+    right: 80px;
+    color: var(--Selected-Color);
+}
+
+#butwinLogin {
+    display: block;
+    position: fixed;
+    top: 6.5px;
+    right: 26px;
+    cursor: pointer;
+}
+
+    #butwinLogin img {
+        width: 40px;
+        height: 40px;
+    }
+
+.right-buttons {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    height: 40px;
+}
+
+.circle-button {
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    float: right;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--Selected-Color);
+}
+
+.nav-item {
+    float: left;
+}
+
+.iconbar {
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+    padding: 1px 1px 1px 1px;
+}
+
+#menuasd {
+    height: auto;
+    width: auto;
+    overflow-y: auto;
+    padding-top: 55px;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    display: block;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    background-color: var(--Back-Color);
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+#myUL {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 53px;
+    overflow-x: hidden;
+}
+
+/* Menu */
+.Content_Card {
+    width: 100%;
+}
+
+.menu-collapse .card {
+    border-left: 3px solid #fff0;
+    padding: 9.5px 0;
+    display: flex;
+    width: 400px;
+}
+
+    .menu-collapse .card.active {
+        border-color: var(--Selected-Color) !important;
+        background-color: var(--Active-Color) !important;
+    }
+
+    .menu-collapse .card:hover {
+        /*border-color: #fff0;*/
+        background-color: var(--Active-Color);
+        /*box-shadow: 0 0 0 0 rgba(90, 113, 208, 0.11), 0 8px 32px 0 rgba(167, 175, 183, 0.5);*/
+        text-decoration: none;
+    }
+
+    .menu-collapse .card .card-header {
+        display: inline-block;
+        width: 46px;
+        margin-right: 10px;
+    }
+
+    .menu-collapse .card:hover .card-header {
+        border-color: #ff7700;
+        /*background-color: #ff7700;*/
+        /*font-size: 1.6rem;*/
+        color: var(--menu-lt-color);
+    }
+
+    .menu-collapse .card:hover .card-body .card-title {
+        /*font-weight: bold;*/
+        color: #f6f8fd;
+    }
+
+
+
+    .menu-collapse .card.active .card-header {
+        /*background-color: var(--menu-bg-active-color);*/
+        border-color: var(--Selected-Color);
+        color: var(--menu-lt-color);
+    }
+
+    .menu-collapse .card .card-header .imgLogo {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: auto;
+    }
+
+    .menu-collapse .card .card-body {
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+        .menu-collapse .card .card-body .card-title {
+            font-family: 'GothamBook';
+            font-size: var(--Menu-Font-Size);
+            position: relative;
+            top: 22%;
+            text-align: left;
+            margin: 0;
+            color: #f6f8fd;
+        }
+
+    /*.menu-collapse .card:hover .card-body .card-title {
+    color: var(--menu-bg-active-color);
+}*/
+
+    .menu-collapse .card.active .card-body .card-title {
+        color: #f6f8fd;
+    }
+/**********/
+
+.win-Login {
+    background-color: var(--BackGroud-Color);
+    border: 1px solid var(--Lines-Color);
+    width: 300px;
+    padding: 10px 0;
+    position: fixed;
+    float: right;
+    top: 53px;
+    right: 10px;
+}
+
+.win-Login-info {
+    font-family: 'GothamBook';
+    height: auto;
+    width: auto;
+    font-size: 9pt;
+    color: var(--labes-color-Soltum);
+}
+
+collapse1 {
+}
+
+.alert-container {
+    bottom: 20px;
+    position: fixed;
+    width: 30%;
+    right: 15px;
+    margin-left: 10px;
+    float: right;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    background: transparent;
+    z-index: 1100;
+}
+
+.alert-remove-margin {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}

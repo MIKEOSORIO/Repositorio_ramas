@@ -1,0 +1,193 @@
+﻿@model PasosWeb.Models.Formulario
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/Content/style/PPublicar/style-publicar.css" rel="stylesheet">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/style/PPrincipal/stylePrincipal.css" rel="stylesheet" />
+    <link href="~/Content/style/PPrincipal/color/default.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style/PPropiedad/overlay.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style/PPropiedad/stylo-propiedad.css" />
+    <script src="https://kit.fontawesome.com/587b312bf9.js" crossorigin="anonymous"></script>
+
+    <title>INFORMACIÓN | HOME</title>
+
+</head>
+
+<body>
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="site-logo">
+                            <a href="/Home/Index"><img src="~/Images/logo-home.png" alt="" /></a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="/Home/Index">Home</a></li>
+                                <li><a href="~/PublicarPropiedad/Index">Publicar</a></li>
+                                <li><a href="~/EditarPropiedad/Index">Historial</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.Navbar-collapse -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+    </div>
+
+    <div id="section-2">
+        <div class="grid">
+            <div class="col_12">
+                <h2 class="title-2">
+                    ¡El espacio perfecto!<br>
+                    <span class="wow fadeInUp" data-wow-duration="2s">Vive la mejor experiencia de tu vida</span>
+                </h2>
+            </div>
+            <!-- END col_12 -->
+        </div>
+
+
+        <div class="grid flex">
+            <div class="row">
+                <div class="colw_6 wow zoomIn">
+                    <div class="wrapimg hack960">
+                        <div class="pic">
+                            <img src="@Session["imagen"]" class="pic-image full-width" alt="Pic" />
+
+                            <div class="pic-caption top-to-bottom">
+                                <h4 class="pic-title">¡Es perfecto!, ¿Qué te parece?</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END wrapimg -->
+                </div>
+                <!-- END col_6 -->
+
+                <div class="colw_6 ">
+                    <div class="box66">
+                        <h3 class="center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Descripción</h3>
+                        <p>
+                            @Session["descripcion"]
+                            @* Habitacion en renta en propiedad ubicada en el Centro Historico de Mérida Yucatán. Se renta habitacion amplia, con closet, completamente amueblada. Contrato individual y sin costo extra, sin necesidad de aval.La renta incluye la habitacion, uso de areas comunes (cocina equipada con refrigerador, microondas, etc. sala y comedor completamente amueblados), servicios de internet, agua y colecta de basura.*@
+                        </p>
+                    </div>
+                    <!-- END box66 -->
+                </div>
+
+                <div class="colw_6 ">
+                    <div class="box66">
+                        <h3 class="center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Dirección</h3>
+                    </div>
+                    <div class="alinear">
+                        <b>Calle </b><span>@Session["calle"] </span><b>Cruzamientos </b><span>@Session["cruzamientos"] </span><b>Colonia </b><span>@Session["colonia"] </span><b>No. Exterior </b><span>@Session["exterior"]</span>
+                        <br />
+                        <b>Localidad </b><span>@Session["localidad"] </span><b>Estado </b>
+                        <span>@Session["estado"] </span><b>CP </b><span>@Session["cp"]</span>
+                        <p>Ubicación: <a href=@Session["ubicacion"]>Clic aquí</a></p>
+                    </div>
+                    <!-- END box66 -->
+                </div>
+                <!-- END col_6 -->
+
+            </div>
+
+
+            <!-- END row -->
+
+        </div>
+    </div>
+    <div class="colw_6 ">
+        <div class="box66">
+            <h3 class="center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Detalles</h3>
+        </div>
+        <!-- END box66 -->
+    </div>
+
+    <div class="social-btn">
+        <div class="social face"><i class="fas fa-bed fa-2x"></i><span>Habitacion</span><br /><span align="right">@Session["cuartos"]</span></div>
+        <div class="social twi"><i class="fas fa-people-arrows fa-2x"></i><span>Espacio</span><br /><span align="right">@Session["espacio"]</span></div>
+        <div class="social in"><i class="fas fa-dollar-sign fa-2x"></i><span>Precio</span><br /><span align="right">$@Session["precio"]</span></div>
+        <div class="social pin"><i class="fas fa-piggy-bank fa-2x"></i><span>Depósito</span><br /><span align="right">$@Session["deposito"]</span></div>
+        <div class="social git"><i class="fas fa-file-contract fa-2x"></i><span>Contrato</span><br /><span align="right">@Session["contrato"]</span></div>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="colw_6 ">
+        <div class="box66">
+            <h3 class="center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Servicios</h3>
+        </div>
+        <!-- END box66 -->
+    </div>
+    <div class="parent-div">
+        <i class="fas fa-wifi"><span>@Session["internet"]</span></i>
+        <i class="fas fa-hamburger"><span>@Session["comida"]</span></i>
+        <i class="fas fa-soap"></i><span>@Session["limpieza"]</span></i>
+        <i class="fas fa-couch"></i><span>@Session["amueblado"]</span>
+        <i class="fas fa-parking"></i><span>@Session["parking"]</span>
+        <i class="fas fa-swimming-pool"></i><span>@Session["alberca"]</span>
+        <i class="fas fa-fan"></i></i><span>@Session["clima"]</span>
+        <i class="fab fa-pagelines"></i><span>@Session["terraza"]</span>
+        <i class="fas fa-tshirt"></i><span>@Session["lavanderia"]</span>
+
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="colw_6 ">
+        <div class="box66">
+            <h3 class="center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Contactar</h3>
+        </div>
+        <!-- END box66 -->
+    </div>
+    <form action="Propiedad/EnviarFormulario" method="post">
+        <div class="row marginbot-80">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="sendmessage">Tu mensajes ha sido enviado. ¡Muchas gracias!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                        @Html.EditorFor(model => model.mensaje, new { htmlAttributes = new { @class = "form-control", PlaceHolder = "Mensaje: " } })
+                        <div class="validation"></div>
+                    </div>
+
+                    <div class="text-center"><button type="submit" class="btn btn-skin btn-lg btn-block">Contactar</button></div>
+                </form>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
+</div>

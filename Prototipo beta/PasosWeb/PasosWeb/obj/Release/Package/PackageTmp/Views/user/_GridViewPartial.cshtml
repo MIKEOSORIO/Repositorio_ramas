@@ -1,0 +1,119 @@
+@{
+    var grid = Html.DevExpress().GridView(settings => {
+        settings.Name = "GridView";
+        settings.CallbackRouteValues = new { Controller = "user", Action = "GridViewPartial" };
+
+        settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "user", Action = "GridViewPartialAddNew" };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "user", Action = "GridViewPartialUpdate" };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "user", Action = "GridViewPartialDelete" };
+        settings.KeyFieldName = "iduser";
+
+        settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+        settings.SettingsBehavior.ConfirmDelete = true;
+
+        //settings.DeleteSelectedRowsRouteValues = new { Text = "Movimientos", Controller = "movimientos", Action = "GridViewPartialSerial" };
+        settings.CellEditorInitialize += (s, e) =>
+        {
+            e.Editor.ReadOnly = false;
+        };
+        settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.SettingsPopup.EditForm.HorizontalAlign = PopupHorizontalAlign.WindowCenter;
+        settings.SettingsPopup.EditForm.VerticalAlign = PopupVerticalAlign.WindowCenter;
+        settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+
+        settings.SettingsPager.Visible = true;
+        settings.SettingsPager.CurrentPageNumberFormat = "{0}";
+        settings.SettingsPager.PrevPageButton.Text = "Anterior";
+        settings.SettingsPager.PrevPageButton.Image.IconID = "0";
+        settings.SettingsPager.NextPageButton.Text = "Siguiente";
+        settings.SettingsPager.NextPageButton.Image.IconID = "0";
+        settings.Settings.ShowGroupPanel = true;
+        settings.Settings.ShowFilterRow = true;
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.Off;
+        settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.Right;
+        settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+        settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = true;
+        settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.CommandColumn.Visible = true;
+
+        settings.CommandColumn.ShowSelectCheckbox = false;
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.Toolbars.Add(toolbar =>
+        {
+            toolbar.Enabled = true;
+            toolbar.Position = GridToolbarPosition.Top;
+            toolbar.ItemAlign = GridToolbarItemAlign.Left;
+            toolbar.SettingsAdaptivity.Enabled = true;
+            toolbar.SettingsAdaptivity.EnableCollapseRootItemsToIcons = true;
+
+            int heigthTableicon = 20;
+            toolbar.Items.Add(item =>
+            {
+                item.Command = GridViewToolbarCommand.New;
+                item.Image.Url = "~/Images/Iconos-Portal-Intranet-16.png";
+                item.Image.UrlDisabled = "~/Images/Iconos-Portal-Intranet-16.png";
+                item.Image.Height = System.Web.UI.WebControls.Unit.Pixel(heigthTableicon);
+            });
+            toolbar.Items.Add(item =>
+            {
+                item.Command = GridViewToolbarCommand.Edit;
+                item.Image.Url = "~/Images/Iconos-Portal-Intranet-17.png";
+                item.Image.UrlDisabled = "~/Images/Iconos-Portal-Intranet-17.png";
+                item.Image.Height = System.Web.UI.WebControls.Unit.Pixel(heigthTableicon);
+            });
+            toolbar.Items.Add(item =>
+            {
+                item.Command = GridViewToolbarCommand.Delete;
+                item.Image.Url = "~/Images/Iconos-Portal-Intranet-15.png";
+                item.Image.UrlDisabled = "~/Images/Iconos-Portal-Intranet-15.png";
+                item.Image.Height = System.Web.UI.WebControls.Unit.Pixel(heigthTableicon);
+            });
+            toolbar.Items.Add(item =>
+            {
+                item.Command = GridViewToolbarCommand.Refresh;
+                item.Image.Url = "~/Images/Iconos-Portal-Intranet-18.png";
+                item.Image.UrlDisabled = "~/Images/Iconos-Portal-Intranet-18.png";
+                item.Image.Height = System.Web.UI.WebControls.Unit.Pixel(heigthTableicon);
+                item.BeginGroup = true;
+            });
+
+            //settings.CommandColumn.CustomButtons.Add(new GridViewCommandColumnCustomButton() { ID = "btnGetKey", Text = "Serial" });
+            //settings.ClientSideEvents.CustomButtonClick = String.Format("function(s, e) {{ CustomButtonClick(s, e, '{0}'); }}", Url.Action("Index", "Serial"));
+
+
+        });
+
+        //  settings.Columns.Add("iduser");
+        settings.Columns.Add("username");
+        settings.Columns.Add("email");
+        //settings.Columns.Add("password");
+        //   settings.Columns.Add("fechaAlta");
+        settings.Columns.Add("nombre");
+        settings.Columns.Add("apellidos");
+       // settings.Columns.Add("rol");
+        settings.Columns.Add(c =>
+        {
+            c.FieldName = "rol";
+            c.ColumnType = MVCxGridViewColumnType.ComboBox;
+            c.Settings.FilterMode = ColumnFilterMode.Value;
+            c.Visible = true;
+            c.EditFormSettings.Visible = DefaultBoolean.True;
+
+            var combo = c.PropertiesEdit as ComboBoxProperties;
+
+            combo.Items.Add("Administrador", "Administrador");
+            combo.Items.Add("Contabilidad", "Contabilidad");
+            combo.Items.Add("Colaborador", "Colaborador");
+        });
+        //  settings.Columns.Add("empresa_idempresa");
+        //  settings.Columns.Add("auxiliar");
+    });
+    if (ViewData["EditError"] != null){
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()
